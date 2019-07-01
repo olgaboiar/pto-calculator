@@ -1,0 +1,26 @@
+AllCops:
+  Exclude:
+    - lib/tasks/cucumber.rake
+    - features/support/env.rb
+    - node_modules/**/**/**/*.rb
+    - node_modules/**/**/**/**/*.spec
+    - config/*.rb
+    - bin/*
+    - test/test_helper.rb
+
+Style/Documentation:
+  Exclude:
+    - app/**/**/*
+    - test/**/**/*
+
+Metrics/BlockLength:
+  Exclude:
+    - spec/*.rb
+
+Metrics/LineLength:
+  Exclude:
+    - spec/*.rb
+    - config/initializers/*.rb
+    - config/environments/*.rb
+    - Gemfile
+    - Rakefile

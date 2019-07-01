@@ -1,6 +1,17 @@
 {
   "name": "pto-calculator",
   "private": true,
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "setupFiles": [
+      "<rootDir>support/setupTests.js"
+    ],
+    "testPathIgnorePatterns": [
+      "config/webpack/test.js"
+    ]
+  },
   "dependencies": {
     "@babel/preset-react": "^7.0.0",
     "@rails/webpacker": "^4.0.7",
@@ -10,6 +21,11 @@
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "jest": "^24.8.0",
+    "lint": "^0.7.0",
+    "react-test-renderer": "^16.8.6",
     "webpack-dev-server": "^3.7.2"
   }
 }

@@ -9,7 +9,7 @@
       "<rootDir>support/setupTests.js"
     ],
     "testPathIgnorePatterns": [
-      "config/webpack/test.js"
+      "config/webpack/test.js", "vendor/bundle/ruby/2.5.0/gems/"
     ]
   },
   "dependencies": {

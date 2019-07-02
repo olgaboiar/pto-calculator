@@ -1,6 +1,5 @@
 When(/^I go to the homepage$/) do
   visit root_path
-  save_and_open_page
 end
   
 Then(/^I should see the welcome message$/) do

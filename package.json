@@ -2,7 +2,8 @@
   "name": "pto-calculator",
   "private": true,
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:gensnapshots": "jest --updateSnapshot"
   },
   "jest": {
     "setupFiles": [

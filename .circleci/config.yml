@@ -44,6 +44,7 @@ jobs:
               --format progress \
               $TEST_FILES
       - run: yarn test
+      - run: cucumber
       - store_test_results:
           path: /tmp/test-results
       - store_artifacts:

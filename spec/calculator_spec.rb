@@ -13,13 +13,13 @@ describe Calculator do
 
   describe '#calculate' do
     it 'should return 2 if an employee started on June 1st' do
-      start_date = Date.new(2019,6,1)
+      start_date = "2019-06-01T05:00:00.000Z"
       actual = @calculator.calculate(start_date, StaticData::APPRENTICE_RATE)
       expect(actual).to eq(4)
     end
 
     it 'should return 80 if a crafter started on Jan 1st' do
-      start_date = Date.new(2019,1,1)
+      start_date = "2019-01-01T05:00:00.000Z"
       actual = @calculator.calculate(start_date, StaticData::CRAFTER_RATE)
       expect(actual).to eq(80)
     end

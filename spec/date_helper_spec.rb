@@ -18,14 +18,14 @@ describe DateHelper do
   describe '#get_working_month_amount' do
     it 'should return 1 for starting date Jun 1st' do
       allow(@date_helper).to receive(:get_current_date).and_return Date.new(2019,7,1)
-      starting_date = Date.new(2019,6,1)
+      starting_date = "2019-06-01T05:00:00.000Z"
       actual = @date_helper.get_working_month_amount(starting_date)
       expect(actual).to eq(1)
     end
 
     it 'should return 6 for starting date Jan 1st' do
       allow(@date_helper).to receive(:get_current_date).and_return Date.new(2019,7,1)
-      starting_date = Date.new(2019,1,1)
+      starting_date = "2019-01-01T05:00:00.000Z"
       actual = @date_helper.get_working_month_amount(starting_date)
       expect(actual).to eq(6)
     end

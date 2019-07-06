@@ -4,6 +4,7 @@ exports[`Greeting.js renders correctly 1`] = `
 initialize {
   "0": Object {
     "attribs": Object {
+      "class": "col s1 center-align",
       "data-testid": "greeting",
     },
     "children": Array [
@@ -36,9 +37,11 @@ initialize {
     },
     "type": "tag",
     "x-attribsNamespace": Object {
+      "class": undefined,
       "data-testid": undefined,
     },
     "x-attribsPrefix": Object {
+      "class": undefined,
       "data-testid": undefined,
     },
   },

@@ -1,37 +1,29 @@
-# Ruby CircleCI 2.0 configuration file
-#
-# Check https://circleci.com/docs/2.0/language-ruby/ for more details
-#
 version: 2
 jobs:
   build:
     docker:
-      # specify the version you desire here
       - image: circleci/ruby:2.5.3-node-browsers
-
-      # Specify service dependencies here if necessary
-      # CircleCI maintains a library of pre-built images
-      # documented at https://circleci.com/docs/2.0/circleci-images/
-      # - image: circleci/postgres:9.4
+        environment:
+            RAILS_ENV: test
+            PGHOST: 127.0.0.1
+            PGUSER: postgres
+      - image: circleci/postgres:9.4
+        environment:
+            POSTGRES_USER: postgres
+            POSTGRES_DB: circle-test_test
 
     working_directory: ~/repo
 
     steps:
       - checkout
-
-      # Download and cache dependencies
       - restore_cache:
           keys:
             - v1-dependencies-{{ checksum "Gemfile.lock" }}
-            # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
 
       - run: gem update --system
       - run: gem install bundler
-      - run:
-          name: install dependencies
-          command: |
-            bundle install --jobs=4 --retry=3 --path vendor/bundle
+      - run: bundle install --jobs=4 --retry=3 --path vendor/bundle
       - run: yarn install
 
       - save_cache:
@@ -40,8 +32,8 @@ jobs:
           key: v1-dependencies-{{ checksum "Gemfile.lock" }}
 
       # Database setup
-      # - run: bundle exec rake db:create
-      # - run: bundle exec rake db:schema:load
+      - run: bundle exec rake db:create
+      - run: bundle exec rake db:schema:load
 
       # run tests!
       - run:
@@ -50,13 +42,13 @@ jobs:
             mkdir /tmp/test-results
             TEST_FILES="$(circleci tests glob "spec/**/*_spec.rb" | \
               circleci tests split --split-by=timings)"
-
             bundle exec rspec \
               --format progress \
               --out /tmp/test-results/rspec.xml \
               --format progress \
               $TEST_FILES
       - run: yarn test
+      - run: bundle exec cucumber
       # collect reports
       - store_test_results:
           path: /tmp/test-results

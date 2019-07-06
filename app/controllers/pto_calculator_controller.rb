@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class PtoCalculatorController < ApplicationController
-  before_action :get_calculator
+  before_action :get_calculator, :authenticate_user!
 
   def index
   end

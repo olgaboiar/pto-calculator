@@ -4,6 +4,7 @@ Feature: Welcoming description
   And see some brief description of what the app does
   So that I have a better experience
 
+  @skip_scenario
   @javascript
   Scenario: User sees the welcome message and info
     When I go to the homepage

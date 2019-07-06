@@ -14,7 +14,7 @@ initialize {
         "children": Array [
           Object {
             "attribs": Object {
-              "class": "card",
+              "class": "center-align card",
             },
             "children": Array [
               Object {

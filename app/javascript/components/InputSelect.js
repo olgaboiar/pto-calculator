@@ -5,7 +5,8 @@ class InputSelect extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      positionOptions: this.props.options
+      positionOptions: this.props.options,
+      label: this.props.label
     };
   
     this.handleChange = this.handleChange.bind(this);
@@ -20,7 +21,7 @@ class InputSelect extends React.Component {
     return (
       <div className="form-group row center-align" data-testid="position">
         <div className="col s12 m6 l4 offset-l4">
-          <label>Select Your Position: </label>
+          <label>Select Your {this.state.label}: </label>
           <Select
             options={positionOptions}
             onChange={this.handleChange}

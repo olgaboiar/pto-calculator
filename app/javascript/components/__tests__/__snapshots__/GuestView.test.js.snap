@@ -1,0 +1,2329 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GuestView.js renders correctly 1`] = `
+initialize {
+  "0": Object {
+    "attribs": Object {
+      "class": "row",
+    },
+    "children": Array [
+      Object {
+        "attribs": Object {
+          "class": "col s12 m6 offset-m3",
+        },
+        "children": Array [
+          Object {
+            "attribs": Object {
+              "class": "card",
+            },
+            "children": Array [
+              Object {
+                "attribs": Object {
+                  "class": "card-image",
+                },
+                "children": Array [
+                  Object {
+                    "attribs": Object {
+                      "class": "",
+                      "src": "",
+                    },
+                    "children": Array [],
+                    "name": "img",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": Object {
+                      "attribs": Object {
+                        "class": "card-title",
+                      },
+                      "children": Array [],
+                      "name": "span",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": [Circular],
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                      },
+                    },
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                      "src": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                      "src": undefined,
+                    },
+                  },
+                  Object {
+                    "attribs": Object {
+                      "class": "card-title",
+                    },
+                    "children": Array [],
+                    "name": "span",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": Object {
+                      "attribs": Object {
+                        "class": "",
+                        "src": "",
+                      },
+                      "children": Array [],
+                      "name": "img",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": [Circular],
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                        "src": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                        "src": undefined,
+                      },
+                    },
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                    },
+                  },
+                ],
+                "name": "div",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": Object {
+                  "attribs": Object {
+                    "class": "card-content",
+                  },
+                  "children": Array [
+                    Object {
+                      "attribs": Object {},
+                      "children": Array [
+                        Object {
+                          "attribs": Object {},
+                          "children": Array [
+                            Object {
+                              "attribs": Object {
+                                "class": "row",
+                              },
+                              "children": Array [
+                                Object {
+                                  "attribs": Object {
+                                    "class": "col",
+                                  },
+                                  "children": Array [
+                                    Object {
+                                      "attribs": Object {
+                                        "src": "https://8thlight.com/images/logos/logo-color-ddaacb3d.svg",
+                                      },
+                                      "children": Array [],
+                                      "name": "img",
+                                      "namespace": "http://www.w3.org/1999/xhtml",
+                                      "next": null,
+                                      "parent": [Circular],
+                                      "prev": null,
+                                      "type": "tag",
+                                      "x-attribsNamespace": Object {
+                                        "src": undefined,
+                                      },
+                                      "x-attribsPrefix": Object {
+                                        "src": undefined,
+                                      },
+                                    },
+                                  ],
+                                  "name": "div",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": Object {
+                                    "attribs": Object {},
+                                    "children": Array [
+                                      Object {
+                                        "data": "Welcome to PTO Calculator",
+                                        "next": null,
+                                        "parent": [Circular],
+                                        "prev": null,
+                                        "type": "text",
+                                      },
+                                    ],
+                                    "name": "h4",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": null,
+                                    "parent": [Circular],
+                                    "prev": [Circular],
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {},
+                                    "x-attribsPrefix": Object {},
+                                  },
+                                  "parent": [Circular],
+                                  "prev": null,
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "class": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "class": undefined,
+                                  },
+                                },
+                                Object {
+                                  "attribs": Object {},
+                                  "children": Array [
+                                    Object {
+                                      "data": "Welcome to PTO Calculator",
+                                      "next": null,
+                                      "parent": [Circular],
+                                      "prev": null,
+                                      "type": "text",
+                                    },
+                                  ],
+                                  "name": "h4",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": null,
+                                  "parent": [Circular],
+                                  "prev": Object {
+                                    "attribs": Object {
+                                      "class": "col",
+                                    },
+                                    "children": Array [
+                                      Object {
+                                        "attribs": Object {
+                                          "src": "https://8thlight.com/images/logos/logo-color-ddaacb3d.svg",
+                                        },
+                                        "children": Array [],
+                                        "name": "img",
+                                        "namespace": "http://www.w3.org/1999/xhtml",
+                                        "next": null,
+                                        "parent": [Circular],
+                                        "prev": null,
+                                        "type": "tag",
+                                        "x-attribsNamespace": Object {
+                                          "src": undefined,
+                                        },
+                                        "x-attribsPrefix": Object {
+                                          "src": undefined,
+                                        },
+                                      },
+                                    ],
+                                    "name": "div",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": [Circular],
+                                    "parent": [Circular],
+                                    "prev": null,
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {
+                                      "class": undefined,
+                                    },
+                                    "x-attribsPrefix": Object {
+                                      "class": undefined,
+                                    },
+                                  },
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {},
+                                  "x-attribsPrefix": Object {},
+                                },
+                              ],
+                              "name": "div",
+                              "namespace": "http://www.w3.org/1999/xhtml",
+                              "next": Object {
+                                "attribs": Object {
+                                  "class": "blue-text text-lighten-1",
+                                },
+                                "children": Array [
+                                  Object {
+                                    "data": "The only tool that brings your vacation closer!",
+                                    "next": null,
+                                    "parent": [Circular],
+                                    "prev": null,
+                                    "type": "text",
+                                  },
+                                ],
+                                "name": "h5",
+                                "namespace": "http://www.w3.org/1999/xhtml",
+                                "next": null,
+                                "parent": [Circular],
+                                "prev": [Circular],
+                                "type": "tag",
+                                "x-attribsNamespace": Object {
+                                  "class": undefined,
+                                },
+                                "x-attribsPrefix": Object {
+                                  "class": undefined,
+                                },
+                              },
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "tag",
+                              "x-attribsNamespace": Object {
+                                "class": undefined,
+                              },
+                              "x-attribsPrefix": Object {
+                                "class": undefined,
+                              },
+                            },
+                            Object {
+                              "attribs": Object {
+                                "class": "blue-text text-lighten-1",
+                              },
+                              "children": Array [
+                                Object {
+                                  "data": "The only tool that brings your vacation closer!",
+                                  "next": null,
+                                  "parent": [Circular],
+                                  "prev": null,
+                                  "type": "text",
+                                },
+                              ],
+                              "name": "h5",
+                              "namespace": "http://www.w3.org/1999/xhtml",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": Object {
+                                "attribs": Object {
+                                  "class": "row",
+                                },
+                                "children": Array [
+                                  Object {
+                                    "attribs": Object {
+                                      "class": "col",
+                                    },
+                                    "children": Array [
+                                      Object {
+                                        "attribs": Object {
+                                          "src": "https://8thlight.com/images/logos/logo-color-ddaacb3d.svg",
+                                        },
+                                        "children": Array [],
+                                        "name": "img",
+                                        "namespace": "http://www.w3.org/1999/xhtml",
+                                        "next": null,
+                                        "parent": [Circular],
+                                        "prev": null,
+                                        "type": "tag",
+                                        "x-attribsNamespace": Object {
+                                          "src": undefined,
+                                        },
+                                        "x-attribsPrefix": Object {
+                                          "src": undefined,
+                                        },
+                                      },
+                                    ],
+                                    "name": "div",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": Object {
+                                      "attribs": Object {},
+                                      "children": Array [
+                                        Object {
+                                          "data": "Welcome to PTO Calculator",
+                                          "next": null,
+                                          "parent": [Circular],
+                                          "prev": null,
+                                          "type": "text",
+                                        },
+                                      ],
+                                      "name": "h4",
+                                      "namespace": "http://www.w3.org/1999/xhtml",
+                                      "next": null,
+                                      "parent": [Circular],
+                                      "prev": [Circular],
+                                      "type": "tag",
+                                      "x-attribsNamespace": Object {},
+                                      "x-attribsPrefix": Object {},
+                                    },
+                                    "parent": [Circular],
+                                    "prev": null,
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {
+                                      "class": undefined,
+                                    },
+                                    "x-attribsPrefix": Object {
+                                      "class": undefined,
+                                    },
+                                  },
+                                  Object {
+                                    "attribs": Object {},
+                                    "children": Array [
+                                      Object {
+                                        "data": "Welcome to PTO Calculator",
+                                        "next": null,
+                                        "parent": [Circular],
+                                        "prev": null,
+                                        "type": "text",
+                                      },
+                                    ],
+                                    "name": "h4",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": null,
+                                    "parent": [Circular],
+                                    "prev": Object {
+                                      "attribs": Object {
+                                        "class": "col",
+                                      },
+                                      "children": Array [
+                                        Object {
+                                          "attribs": Object {
+                                            "src": "https://8thlight.com/images/logos/logo-color-ddaacb3d.svg",
+                                          },
+                                          "children": Array [],
+                                          "name": "img",
+                                          "namespace": "http://www.w3.org/1999/xhtml",
+                                          "next": null,
+                                          "parent": [Circular],
+                                          "prev": null,
+                                          "type": "tag",
+                                          "x-attribsNamespace": Object {
+                                            "src": undefined,
+                                          },
+                                          "x-attribsPrefix": Object {
+                                            "src": undefined,
+                                          },
+                                        },
+                                      ],
+                                      "name": "div",
+                                      "namespace": "http://www.w3.org/1999/xhtml",
+                                      "next": [Circular],
+                                      "parent": [Circular],
+                                      "prev": null,
+                                      "type": "tag",
+                                      "x-attribsNamespace": Object {
+                                        "class": undefined,
+                                      },
+                                      "x-attribsPrefix": Object {
+                                        "class": undefined,
+                                      },
+                                    },
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {},
+                                    "x-attribsPrefix": Object {},
+                                  },
+                                ],
+                                "name": "div",
+                                "namespace": "http://www.w3.org/1999/xhtml",
+                                "next": [Circular],
+                                "parent": [Circular],
+                                "prev": null,
+                                "type": "tag",
+                                "x-attribsNamespace": Object {
+                                  "class": undefined,
+                                },
+                                "x-attribsPrefix": Object {
+                                  "class": undefined,
+                                },
+                              },
+                              "type": "tag",
+                              "x-attribsNamespace": Object {
+                                "class": undefined,
+                              },
+                              "x-attribsPrefix": Object {
+                                "class": undefined,
+                              },
+                            },
+                          ],
+                          "name": "div",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                          "x-attribsNamespace": Object {},
+                          "x-attribsPrefix": Object {},
+                        },
+                      ],
+                      "name": "div",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                      "x-attribsNamespace": Object {},
+                      "x-attribsPrefix": Object {},
+                    },
+                  ],
+                  "name": "div",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": Object {
+                    "attribs": Object {
+                      "class": "card-reveal",
+                    },
+                    "children": Array [
+                      Object {
+                        "attribs": Object {
+                          "class": "card-title",
+                        },
+                        "children": Array [
+                          Object {
+                            "attribs": Object {
+                              "class": "material-icons right",
+                            },
+                            "children": Array [
+                              Object {
+                                "data": "close",
+                                "next": null,
+                                "parent": [Circular],
+                                "prev": null,
+                                "type": "text",
+                              },
+                            ],
+                            "name": "i",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "tag",
+                            "x-attribsNamespace": Object {
+                              "class": undefined,
+                            },
+                            "x-attribsPrefix": Object {
+                              "class": undefined,
+                            },
+                          },
+                        ],
+                        "name": "span",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "class": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "class": undefined,
+                        },
+                      },
+                    ],
+                    "name": "div",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": Object {
+                      "attribs": Object {
+                        "class": "card-action",
+                      },
+                      "children": Array [
+                        Object {
+                          "attribs": Object {
+                            "class": "blue-text text-lighten-3",
+                            "href": "/users/sign_in",
+                          },
+                          "children": Array [
+                            Object {
+                              "data": "Please log in to be able to see your PTO",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "text",
+                            },
+                          ],
+                          "name": "a",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                          "x-attribsNamespace": Object {
+                            "class": undefined,
+                            "href": undefined,
+                          },
+                          "x-attribsPrefix": Object {
+                            "class": undefined,
+                            "href": undefined,
+                          },
+                        },
+                      ],
+                      "name": "div",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": [Circular],
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                      },
+                    },
+                    "parent": [Circular],
+                    "prev": [Circular],
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                    },
+                  },
+                  "parent": [Circular],
+                  "prev": [Circular],
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                  },
+                },
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                },
+              },
+              Object {
+                "attribs": Object {
+                  "class": "card-content",
+                },
+                "children": Array [
+                  Object {
+                    "attribs": Object {},
+                    "children": Array [
+                      Object {
+                        "attribs": Object {},
+                        "children": Array [
+                          Object {
+                            "attribs": Object {
+                              "class": "row",
+                            },
+                            "children": Array [
+                              Object {
+                                "attribs": Object {
+                                  "class": "col",
+                                },
+                                "children": Array [
+                                  Object {
+                                    "attribs": Object {
+                                      "src": "https://8thlight.com/images/logos/logo-color-ddaacb3d.svg",
+                                    },
+                                    "children": Array [],
+                                    "name": "img",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": null,
+                                    "parent": [Circular],
+                                    "prev": null,
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {
+                                      "src": undefined,
+                                    },
+                                    "x-attribsPrefix": Object {
+                                      "src": undefined,
+                                    },
+                                  },
+                                ],
+                                "name": "div",
+                                "namespace": "http://www.w3.org/1999/xhtml",
+                                "next": Object {
+                                  "attribs": Object {},
+                                  "children": Array [
+                                    Object {
+                                      "data": "Welcome to PTO Calculator",
+                                      "next": null,
+                                      "parent": [Circular],
+                                      "prev": null,
+                                      "type": "text",
+                                    },
+                                  ],
+                                  "name": "h4",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": null,
+                                  "parent": [Circular],
+                                  "prev": [Circular],
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {},
+                                  "x-attribsPrefix": Object {},
+                                },
+                                "parent": [Circular],
+                                "prev": null,
+                                "type": "tag",
+                                "x-attribsNamespace": Object {
+                                  "class": undefined,
+                                },
+                                "x-attribsPrefix": Object {
+                                  "class": undefined,
+                                },
+                              },
+                              Object {
+                                "attribs": Object {},
+                                "children": Array [
+                                  Object {
+                                    "data": "Welcome to PTO Calculator",
+                                    "next": null,
+                                    "parent": [Circular],
+                                    "prev": null,
+                                    "type": "text",
+                                  },
+                                ],
+                                "name": "h4",
+                                "namespace": "http://www.w3.org/1999/xhtml",
+                                "next": null,
+                                "parent": [Circular],
+                                "prev": Object {
+                                  "attribs": Object {
+                                    "class": "col",
+                                  },
+                                  "children": Array [
+                                    Object {
+                                      "attribs": Object {
+                                        "src": "https://8thlight.com/images/logos/logo-color-ddaacb3d.svg",
+                                      },
+                                      "children": Array [],
+                                      "name": "img",
+                                      "namespace": "http://www.w3.org/1999/xhtml",
+                                      "next": null,
+                                      "parent": [Circular],
+                                      "prev": null,
+                                      "type": "tag",
+                                      "x-attribsNamespace": Object {
+                                        "src": undefined,
+                                      },
+                                      "x-attribsPrefix": Object {
+                                        "src": undefined,
+                                      },
+                                    },
+                                  ],
+                                  "name": "div",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": [Circular],
+                                  "parent": [Circular],
+                                  "prev": null,
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "class": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "class": undefined,
+                                  },
+                                },
+                                "type": "tag",
+                                "x-attribsNamespace": Object {},
+                                "x-attribsPrefix": Object {},
+                              },
+                            ],
+                            "name": "div",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": Object {
+                              "attribs": Object {
+                                "class": "blue-text text-lighten-1",
+                              },
+                              "children": Array [
+                                Object {
+                                  "data": "The only tool that brings your vacation closer!",
+                                  "next": null,
+                                  "parent": [Circular],
+                                  "prev": null,
+                                  "type": "text",
+                                },
+                              ],
+                              "name": "h5",
+                              "namespace": "http://www.w3.org/1999/xhtml",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": [Circular],
+                              "type": "tag",
+                              "x-attribsNamespace": Object {
+                                "class": undefined,
+                              },
+                              "x-attribsPrefix": Object {
+                                "class": undefined,
+                              },
+                            },
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "tag",
+                            "x-attribsNamespace": Object {
+                              "class": undefined,
+                            },
+                            "x-attribsPrefix": Object {
+                              "class": undefined,
+                            },
+                          },
+                          Object {
+                            "attribs": Object {
+                              "class": "blue-text text-lighten-1",
+                            },
+                            "children": Array [
+                              Object {
+                                "data": "The only tool that brings your vacation closer!",
+                                "next": null,
+                                "parent": [Circular],
+                                "prev": null,
+                                "type": "text",
+                              },
+                            ],
+                            "name": "h5",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": Object {
+                              "attribs": Object {
+                                "class": "row",
+                              },
+                              "children": Array [
+                                Object {
+                                  "attribs": Object {
+                                    "class": "col",
+                                  },
+                                  "children": Array [
+                                    Object {
+                                      "attribs": Object {
+                                        "src": "https://8thlight.com/images/logos/logo-color-ddaacb3d.svg",
+                                      },
+                                      "children": Array [],
+                                      "name": "img",
+                                      "namespace": "http://www.w3.org/1999/xhtml",
+                                      "next": null,
+                                      "parent": [Circular],
+                                      "prev": null,
+                                      "type": "tag",
+                                      "x-attribsNamespace": Object {
+                                        "src": undefined,
+                                      },
+                                      "x-attribsPrefix": Object {
+                                        "src": undefined,
+                                      },
+                                    },
+                                  ],
+                                  "name": "div",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": Object {
+                                    "attribs": Object {},
+                                    "children": Array [
+                                      Object {
+                                        "data": "Welcome to PTO Calculator",
+                                        "next": null,
+                                        "parent": [Circular],
+                                        "prev": null,
+                                        "type": "text",
+                                      },
+                                    ],
+                                    "name": "h4",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": null,
+                                    "parent": [Circular],
+                                    "prev": [Circular],
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {},
+                                    "x-attribsPrefix": Object {},
+                                  },
+                                  "parent": [Circular],
+                                  "prev": null,
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "class": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "class": undefined,
+                                  },
+                                },
+                                Object {
+                                  "attribs": Object {},
+                                  "children": Array [
+                                    Object {
+                                      "data": "Welcome to PTO Calculator",
+                                      "next": null,
+                                      "parent": [Circular],
+                                      "prev": null,
+                                      "type": "text",
+                                    },
+                                  ],
+                                  "name": "h4",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": null,
+                                  "parent": [Circular],
+                                  "prev": Object {
+                                    "attribs": Object {
+                                      "class": "col",
+                                    },
+                                    "children": Array [
+                                      Object {
+                                        "attribs": Object {
+                                          "src": "https://8thlight.com/images/logos/logo-color-ddaacb3d.svg",
+                                        },
+                                        "children": Array [],
+                                        "name": "img",
+                                        "namespace": "http://www.w3.org/1999/xhtml",
+                                        "next": null,
+                                        "parent": [Circular],
+                                        "prev": null,
+                                        "type": "tag",
+                                        "x-attribsNamespace": Object {
+                                          "src": undefined,
+                                        },
+                                        "x-attribsPrefix": Object {
+                                          "src": undefined,
+                                        },
+                                      },
+                                    ],
+                                    "name": "div",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": [Circular],
+                                    "parent": [Circular],
+                                    "prev": null,
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {
+                                      "class": undefined,
+                                    },
+                                    "x-attribsPrefix": Object {
+                                      "class": undefined,
+                                    },
+                                  },
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {},
+                                  "x-attribsPrefix": Object {},
+                                },
+                              ],
+                              "name": "div",
+                              "namespace": "http://www.w3.org/1999/xhtml",
+                              "next": [Circular],
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "tag",
+                              "x-attribsNamespace": Object {
+                                "class": undefined,
+                              },
+                              "x-attribsPrefix": Object {
+                                "class": undefined,
+                              },
+                            },
+                            "type": "tag",
+                            "x-attribsNamespace": Object {
+                              "class": undefined,
+                            },
+                            "x-attribsPrefix": Object {
+                              "class": undefined,
+                            },
+                          },
+                        ],
+                        "name": "div",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                        "x-attribsNamespace": Object {},
+                        "x-attribsPrefix": Object {},
+                      },
+                    ],
+                    "name": "div",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                    "x-attribsNamespace": Object {},
+                    "x-attribsPrefix": Object {},
+                  },
+                ],
+                "name": "div",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": Object {
+                  "attribs": Object {
+                    "class": "card-reveal",
+                  },
+                  "children": Array [
+                    Object {
+                      "attribs": Object {
+                        "class": "card-title",
+                      },
+                      "children": Array [
+                        Object {
+                          "attribs": Object {
+                            "class": "material-icons right",
+                          },
+                          "children": Array [
+                            Object {
+                              "data": "close",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "text",
+                            },
+                          ],
+                          "name": "i",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                          "x-attribsNamespace": Object {
+                            "class": undefined,
+                          },
+                          "x-attribsPrefix": Object {
+                            "class": undefined,
+                          },
+                        },
+                      ],
+                      "name": "span",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                      },
+                    },
+                  ],
+                  "name": "div",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": Object {
+                    "attribs": Object {
+                      "class": "card-action",
+                    },
+                    "children": Array [
+                      Object {
+                        "attribs": Object {
+                          "class": "blue-text text-lighten-3",
+                          "href": "/users/sign_in",
+                        },
+                        "children": Array [
+                          Object {
+                            "data": "Please log in to be able to see your PTO",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "text",
+                          },
+                        ],
+                        "name": "a",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "class": undefined,
+                          "href": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "class": undefined,
+                          "href": undefined,
+                        },
+                      },
+                    ],
+                    "name": "div",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": [Circular],
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                    },
+                  },
+                  "parent": [Circular],
+                  "prev": [Circular],
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                  },
+                },
+                "parent": [Circular],
+                "prev": Object {
+                  "attribs": Object {
+                    "class": "card-image",
+                  },
+                  "children": Array [
+                    Object {
+                      "attribs": Object {
+                        "class": "",
+                        "src": "",
+                      },
+                      "children": Array [],
+                      "name": "img",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": Object {
+                        "attribs": Object {
+                          "class": "card-title",
+                        },
+                        "children": Array [],
+                        "name": "span",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": [Circular],
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "class": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "class": undefined,
+                        },
+                      },
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                        "src": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                        "src": undefined,
+                      },
+                    },
+                    Object {
+                      "attribs": Object {
+                        "class": "card-title",
+                      },
+                      "children": Array [],
+                      "name": "span",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": Object {
+                        "attribs": Object {
+                          "class": "",
+                          "src": "",
+                        },
+                        "children": Array [],
+                        "name": "img",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": [Circular],
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "class": undefined,
+                          "src": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "class": undefined,
+                          "src": undefined,
+                        },
+                      },
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                      },
+                    },
+                  ],
+                  "name": "div",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": [Circular],
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                  },
+                },
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                },
+              },
+              Object {
+                "attribs": Object {
+                  "class": "card-reveal",
+                },
+                "children": Array [
+                  Object {
+                    "attribs": Object {
+                      "class": "card-title",
+                    },
+                    "children": Array [
+                      Object {
+                        "attribs": Object {
+                          "class": "material-icons right",
+                        },
+                        "children": Array [
+                          Object {
+                            "data": "close",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "text",
+                          },
+                        ],
+                        "name": "i",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "class": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "class": undefined,
+                        },
+                      },
+                    ],
+                    "name": "span",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                    },
+                  },
+                ],
+                "name": "div",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": Object {
+                  "attribs": Object {
+                    "class": "card-action",
+                  },
+                  "children": Array [
+                    Object {
+                      "attribs": Object {
+                        "class": "blue-text text-lighten-3",
+                        "href": "/users/sign_in",
+                      },
+                      "children": Array [
+                        Object {
+                          "data": "Please log in to be able to see your PTO",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "text",
+                        },
+                      ],
+                      "name": "a",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                        "href": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                        "href": undefined,
+                      },
+                    },
+                  ],
+                  "name": "div",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": [Circular],
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                  },
+                },
+                "parent": [Circular],
+                "prev": Object {
+                  "attribs": Object {
+                    "class": "card-content",
+                  },
+                  "children": Array [
+                    Object {
+                      "attribs": Object {},
+                      "children": Array [
+                        Object {
+                          "attribs": Object {},
+                          "children": Array [
+                            Object {
+                              "attribs": Object {
+                                "class": "row",
+                              },
+                              "children": Array [
+                                Object {
+                                  "attribs": Object {
+                                    "class": "col",
+                                  },
+                                  "children": Array [
+                                    Object {
+                                      "attribs": Object {
+                                        "src": "https://8thlight.com/images/logos/logo-color-ddaacb3d.svg",
+                                      },
+                                      "children": Array [],
+                                      "name": "img",
+                                      "namespace": "http://www.w3.org/1999/xhtml",
+                                      "next": null,
+                                      "parent": [Circular],
+                                      "prev": null,
+                                      "type": "tag",
+                                      "x-attribsNamespace": Object {
+                                        "src": undefined,
+                                      },
+                                      "x-attribsPrefix": Object {
+                                        "src": undefined,
+                                      },
+                                    },
+                                  ],
+                                  "name": "div",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": Object {
+                                    "attribs": Object {},
+                                    "children": Array [
+                                      Object {
+                                        "data": "Welcome to PTO Calculator",
+                                        "next": null,
+                                        "parent": [Circular],
+                                        "prev": null,
+                                        "type": "text",
+                                      },
+                                    ],
+                                    "name": "h4",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": null,
+                                    "parent": [Circular],
+                                    "prev": [Circular],
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {},
+                                    "x-attribsPrefix": Object {},
+                                  },
+                                  "parent": [Circular],
+                                  "prev": null,
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "class": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "class": undefined,
+                                  },
+                                },
+                                Object {
+                                  "attribs": Object {},
+                                  "children": Array [
+                                    Object {
+                                      "data": "Welcome to PTO Calculator",
+                                      "next": null,
+                                      "parent": [Circular],
+                                      "prev": null,
+                                      "type": "text",
+                                    },
+                                  ],
+                                  "name": "h4",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": null,
+                                  "parent": [Circular],
+                                  "prev": Object {
+                                    "attribs": Object {
+                                      "class": "col",
+                                    },
+                                    "children": Array [
+                                      Object {
+                                        "attribs": Object {
+                                          "src": "https://8thlight.com/images/logos/logo-color-ddaacb3d.svg",
+                                        },
+                                        "children": Array [],
+                                        "name": "img",
+                                        "namespace": "http://www.w3.org/1999/xhtml",
+                                        "next": null,
+                                        "parent": [Circular],
+                                        "prev": null,
+                                        "type": "tag",
+                                        "x-attribsNamespace": Object {
+                                          "src": undefined,
+                                        },
+                                        "x-attribsPrefix": Object {
+                                          "src": undefined,
+                                        },
+                                      },
+                                    ],
+                                    "name": "div",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": [Circular],
+                                    "parent": [Circular],
+                                    "prev": null,
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {
+                                      "class": undefined,
+                                    },
+                                    "x-attribsPrefix": Object {
+                                      "class": undefined,
+                                    },
+                                  },
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {},
+                                  "x-attribsPrefix": Object {},
+                                },
+                              ],
+                              "name": "div",
+                              "namespace": "http://www.w3.org/1999/xhtml",
+                              "next": Object {
+                                "attribs": Object {
+                                  "class": "blue-text text-lighten-1",
+                                },
+                                "children": Array [
+                                  Object {
+                                    "data": "The only tool that brings your vacation closer!",
+                                    "next": null,
+                                    "parent": [Circular],
+                                    "prev": null,
+                                    "type": "text",
+                                  },
+                                ],
+                                "name": "h5",
+                                "namespace": "http://www.w3.org/1999/xhtml",
+                                "next": null,
+                                "parent": [Circular],
+                                "prev": [Circular],
+                                "type": "tag",
+                                "x-attribsNamespace": Object {
+                                  "class": undefined,
+                                },
+                                "x-attribsPrefix": Object {
+                                  "class": undefined,
+                                },
+                              },
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "tag",
+                              "x-attribsNamespace": Object {
+                                "class": undefined,
+                              },
+                              "x-attribsPrefix": Object {
+                                "class": undefined,
+                              },
+                            },
+                            Object {
+                              "attribs": Object {
+                                "class": "blue-text text-lighten-1",
+                              },
+                              "children": Array [
+                                Object {
+                                  "data": "The only tool that brings your vacation closer!",
+                                  "next": null,
+                                  "parent": [Circular],
+                                  "prev": null,
+                                  "type": "text",
+                                },
+                              ],
+                              "name": "h5",
+                              "namespace": "http://www.w3.org/1999/xhtml",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": Object {
+                                "attribs": Object {
+                                  "class": "row",
+                                },
+                                "children": Array [
+                                  Object {
+                                    "attribs": Object {
+                                      "class": "col",
+                                    },
+                                    "children": Array [
+                                      Object {
+                                        "attribs": Object {
+                                          "src": "https://8thlight.com/images/logos/logo-color-ddaacb3d.svg",
+                                        },
+                                        "children": Array [],
+                                        "name": "img",
+                                        "namespace": "http://www.w3.org/1999/xhtml",
+                                        "next": null,
+                                        "parent": [Circular],
+                                        "prev": null,
+                                        "type": "tag",
+                                        "x-attribsNamespace": Object {
+                                          "src": undefined,
+                                        },
+                                        "x-attribsPrefix": Object {
+                                          "src": undefined,
+                                        },
+                                      },
+                                    ],
+                                    "name": "div",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": Object {
+                                      "attribs": Object {},
+                                      "children": Array [
+                                        Object {
+                                          "data": "Welcome to PTO Calculator",
+                                          "next": null,
+                                          "parent": [Circular],
+                                          "prev": null,
+                                          "type": "text",
+                                        },
+                                      ],
+                                      "name": "h4",
+                                      "namespace": "http://www.w3.org/1999/xhtml",
+                                      "next": null,
+                                      "parent": [Circular],
+                                      "prev": [Circular],
+                                      "type": "tag",
+                                      "x-attribsNamespace": Object {},
+                                      "x-attribsPrefix": Object {},
+                                    },
+                                    "parent": [Circular],
+                                    "prev": null,
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {
+                                      "class": undefined,
+                                    },
+                                    "x-attribsPrefix": Object {
+                                      "class": undefined,
+                                    },
+                                  },
+                                  Object {
+                                    "attribs": Object {},
+                                    "children": Array [
+                                      Object {
+                                        "data": "Welcome to PTO Calculator",
+                                        "next": null,
+                                        "parent": [Circular],
+                                        "prev": null,
+                                        "type": "text",
+                                      },
+                                    ],
+                                    "name": "h4",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": null,
+                                    "parent": [Circular],
+                                    "prev": Object {
+                                      "attribs": Object {
+                                        "class": "col",
+                                      },
+                                      "children": Array [
+                                        Object {
+                                          "attribs": Object {
+                                            "src": "https://8thlight.com/images/logos/logo-color-ddaacb3d.svg",
+                                          },
+                                          "children": Array [],
+                                          "name": "img",
+                                          "namespace": "http://www.w3.org/1999/xhtml",
+                                          "next": null,
+                                          "parent": [Circular],
+                                          "prev": null,
+                                          "type": "tag",
+                                          "x-attribsNamespace": Object {
+                                            "src": undefined,
+                                          },
+                                          "x-attribsPrefix": Object {
+                                            "src": undefined,
+                                          },
+                                        },
+                                      ],
+                                      "name": "div",
+                                      "namespace": "http://www.w3.org/1999/xhtml",
+                                      "next": [Circular],
+                                      "parent": [Circular],
+                                      "prev": null,
+                                      "type": "tag",
+                                      "x-attribsNamespace": Object {
+                                        "class": undefined,
+                                      },
+                                      "x-attribsPrefix": Object {
+                                        "class": undefined,
+                                      },
+                                    },
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {},
+                                    "x-attribsPrefix": Object {},
+                                  },
+                                ],
+                                "name": "div",
+                                "namespace": "http://www.w3.org/1999/xhtml",
+                                "next": [Circular],
+                                "parent": [Circular],
+                                "prev": null,
+                                "type": "tag",
+                                "x-attribsNamespace": Object {
+                                  "class": undefined,
+                                },
+                                "x-attribsPrefix": Object {
+                                  "class": undefined,
+                                },
+                              },
+                              "type": "tag",
+                              "x-attribsNamespace": Object {
+                                "class": undefined,
+                              },
+                              "x-attribsPrefix": Object {
+                                "class": undefined,
+                              },
+                            },
+                          ],
+                          "name": "div",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                          "x-attribsNamespace": Object {},
+                          "x-attribsPrefix": Object {},
+                        },
+                      ],
+                      "name": "div",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                      "x-attribsNamespace": Object {},
+                      "x-attribsPrefix": Object {},
+                    },
+                  ],
+                  "name": "div",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": [Circular],
+                  "parent": [Circular],
+                  "prev": Object {
+                    "attribs": Object {
+                      "class": "card-image",
+                    },
+                    "children": Array [
+                      Object {
+                        "attribs": Object {
+                          "class": "",
+                          "src": "",
+                        },
+                        "children": Array [],
+                        "name": "img",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": Object {
+                          "attribs": Object {
+                            "class": "card-title",
+                          },
+                          "children": Array [],
+                          "name": "span",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": [Circular],
+                          "type": "tag",
+                          "x-attribsNamespace": Object {
+                            "class": undefined,
+                          },
+                          "x-attribsPrefix": Object {
+                            "class": undefined,
+                          },
+                        },
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "class": undefined,
+                          "src": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "class": undefined,
+                          "src": undefined,
+                        },
+                      },
+                      Object {
+                        "attribs": Object {
+                          "class": "card-title",
+                        },
+                        "children": Array [],
+                        "name": "span",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": Object {
+                          "attribs": Object {
+                            "class": "",
+                            "src": "",
+                          },
+                          "children": Array [],
+                          "name": "img",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": [Circular],
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                          "x-attribsNamespace": Object {
+                            "class": undefined,
+                            "src": undefined,
+                          },
+                          "x-attribsPrefix": Object {
+                            "class": undefined,
+                            "src": undefined,
+                          },
+                        },
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "class": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "class": undefined,
+                        },
+                      },
+                    ],
+                    "name": "div",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": [Circular],
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                    },
+                  },
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                  },
+                },
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                },
+              },
+              Object {
+                "attribs": Object {
+                  "class": "card-action",
+                },
+                "children": Array [
+                  Object {
+                    "attribs": Object {
+                      "class": "blue-text text-lighten-3",
+                      "href": "/users/sign_in",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "Please log in to be able to see your PTO",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "a",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                      "href": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                      "href": undefined,
+                    },
+                  },
+                ],
+                "name": "div",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": null,
+                "parent": [Circular],
+                "prev": Object {
+                  "attribs": Object {
+                    "class": "card-reveal",
+                  },
+                  "children": Array [
+                    Object {
+                      "attribs": Object {
+                        "class": "card-title",
+                      },
+                      "children": Array [
+                        Object {
+                          "attribs": Object {
+                            "class": "material-icons right",
+                          },
+                          "children": Array [
+                            Object {
+                              "data": "close",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "text",
+                            },
+                          ],
+                          "name": "i",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                          "x-attribsNamespace": Object {
+                            "class": undefined,
+                          },
+                          "x-attribsPrefix": Object {
+                            "class": undefined,
+                          },
+                        },
+                      ],
+                      "name": "span",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                      },
+                    },
+                  ],
+                  "name": "div",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": [Circular],
+                  "parent": [Circular],
+                  "prev": Object {
+                    "attribs": Object {
+                      "class": "card-content",
+                    },
+                    "children": Array [
+                      Object {
+                        "attribs": Object {},
+                        "children": Array [
+                          Object {
+                            "attribs": Object {},
+                            "children": Array [
+                              Object {
+                                "attribs": Object {
+                                  "class": "row",
+                                },
+                                "children": Array [
+                                  Object {
+                                    "attribs": Object {
+                                      "class": "col",
+                                    },
+                                    "children": Array [
+                                      Object {
+                                        "attribs": Object {
+                                          "src": "https://8thlight.com/images/logos/logo-color-ddaacb3d.svg",
+                                        },
+                                        "children": Array [],
+                                        "name": "img",
+                                        "namespace": "http://www.w3.org/1999/xhtml",
+                                        "next": null,
+                                        "parent": [Circular],
+                                        "prev": null,
+                                        "type": "tag",
+                                        "x-attribsNamespace": Object {
+                                          "src": undefined,
+                                        },
+                                        "x-attribsPrefix": Object {
+                                          "src": undefined,
+                                        },
+                                      },
+                                    ],
+                                    "name": "div",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": Object {
+                                      "attribs": Object {},
+                                      "children": Array [
+                                        Object {
+                                          "data": "Welcome to PTO Calculator",
+                                          "next": null,
+                                          "parent": [Circular],
+                                          "prev": null,
+                                          "type": "text",
+                                        },
+                                      ],
+                                      "name": "h4",
+                                      "namespace": "http://www.w3.org/1999/xhtml",
+                                      "next": null,
+                                      "parent": [Circular],
+                                      "prev": [Circular],
+                                      "type": "tag",
+                                      "x-attribsNamespace": Object {},
+                                      "x-attribsPrefix": Object {},
+                                    },
+                                    "parent": [Circular],
+                                    "prev": null,
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {
+                                      "class": undefined,
+                                    },
+                                    "x-attribsPrefix": Object {
+                                      "class": undefined,
+                                    },
+                                  },
+                                  Object {
+                                    "attribs": Object {},
+                                    "children": Array [
+                                      Object {
+                                        "data": "Welcome to PTO Calculator",
+                                        "next": null,
+                                        "parent": [Circular],
+                                        "prev": null,
+                                        "type": "text",
+                                      },
+                                    ],
+                                    "name": "h4",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": null,
+                                    "parent": [Circular],
+                                    "prev": Object {
+                                      "attribs": Object {
+                                        "class": "col",
+                                      },
+                                      "children": Array [
+                                        Object {
+                                          "attribs": Object {
+                                            "src": "https://8thlight.com/images/logos/logo-color-ddaacb3d.svg",
+                                          },
+                                          "children": Array [],
+                                          "name": "img",
+                                          "namespace": "http://www.w3.org/1999/xhtml",
+                                          "next": null,
+                                          "parent": [Circular],
+                                          "prev": null,
+                                          "type": "tag",
+                                          "x-attribsNamespace": Object {
+                                            "src": undefined,
+                                          },
+                                          "x-attribsPrefix": Object {
+                                            "src": undefined,
+                                          },
+                                        },
+                                      ],
+                                      "name": "div",
+                                      "namespace": "http://www.w3.org/1999/xhtml",
+                                      "next": [Circular],
+                                      "parent": [Circular],
+                                      "prev": null,
+                                      "type": "tag",
+                                      "x-attribsNamespace": Object {
+                                        "class": undefined,
+                                      },
+                                      "x-attribsPrefix": Object {
+                                        "class": undefined,
+                                      },
+                                    },
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {},
+                                    "x-attribsPrefix": Object {},
+                                  },
+                                ],
+                                "name": "div",
+                                "namespace": "http://www.w3.org/1999/xhtml",
+                                "next": Object {
+                                  "attribs": Object {
+                                    "class": "blue-text text-lighten-1",
+                                  },
+                                  "children": Array [
+                                    Object {
+                                      "data": "The only tool that brings your vacation closer!",
+                                      "next": null,
+                                      "parent": [Circular],
+                                      "prev": null,
+                                      "type": "text",
+                                    },
+                                  ],
+                                  "name": "h5",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": null,
+                                  "parent": [Circular],
+                                  "prev": [Circular],
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "class": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "class": undefined,
+                                  },
+                                },
+                                "parent": [Circular],
+                                "prev": null,
+                                "type": "tag",
+                                "x-attribsNamespace": Object {
+                                  "class": undefined,
+                                },
+                                "x-attribsPrefix": Object {
+                                  "class": undefined,
+                                },
+                              },
+                              Object {
+                                "attribs": Object {
+                                  "class": "blue-text text-lighten-1",
+                                },
+                                "children": Array [
+                                  Object {
+                                    "data": "The only tool that brings your vacation closer!",
+                                    "next": null,
+                                    "parent": [Circular],
+                                    "prev": null,
+                                    "type": "text",
+                                  },
+                                ],
+                                "name": "h5",
+                                "namespace": "http://www.w3.org/1999/xhtml",
+                                "next": null,
+                                "parent": [Circular],
+                                "prev": Object {
+                                  "attribs": Object {
+                                    "class": "row",
+                                  },
+                                  "children": Array [
+                                    Object {
+                                      "attribs": Object {
+                                        "class": "col",
+                                      },
+                                      "children": Array [
+                                        Object {
+                                          "attribs": Object {
+                                            "src": "https://8thlight.com/images/logos/logo-color-ddaacb3d.svg",
+                                          },
+                                          "children": Array [],
+                                          "name": "img",
+                                          "namespace": "http://www.w3.org/1999/xhtml",
+                                          "next": null,
+                                          "parent": [Circular],
+                                          "prev": null,
+                                          "type": "tag",
+                                          "x-attribsNamespace": Object {
+                                            "src": undefined,
+                                          },
+                                          "x-attribsPrefix": Object {
+                                            "src": undefined,
+                                          },
+                                        },
+                                      ],
+                                      "name": "div",
+                                      "namespace": "http://www.w3.org/1999/xhtml",
+                                      "next": Object {
+                                        "attribs": Object {},
+                                        "children": Array [
+                                          Object {
+                                            "data": "Welcome to PTO Calculator",
+                                            "next": null,
+                                            "parent": [Circular],
+                                            "prev": null,
+                                            "type": "text",
+                                          },
+                                        ],
+                                        "name": "h4",
+                                        "namespace": "http://www.w3.org/1999/xhtml",
+                                        "next": null,
+                                        "parent": [Circular],
+                                        "prev": [Circular],
+                                        "type": "tag",
+                                        "x-attribsNamespace": Object {},
+                                        "x-attribsPrefix": Object {},
+                                      },
+                                      "parent": [Circular],
+                                      "prev": null,
+                                      "type": "tag",
+                                      "x-attribsNamespace": Object {
+                                        "class": undefined,
+                                      },
+                                      "x-attribsPrefix": Object {
+                                        "class": undefined,
+                                      },
+                                    },
+                                    Object {
+                                      "attribs": Object {},
+                                      "children": Array [
+                                        Object {
+                                          "data": "Welcome to PTO Calculator",
+                                          "next": null,
+                                          "parent": [Circular],
+                                          "prev": null,
+                                          "type": "text",
+                                        },
+                                      ],
+                                      "name": "h4",
+                                      "namespace": "http://www.w3.org/1999/xhtml",
+                                      "next": null,
+                                      "parent": [Circular],
+                                      "prev": Object {
+                                        "attribs": Object {
+                                          "class": "col",
+                                        },
+                                        "children": Array [
+                                          Object {
+                                            "attribs": Object {
+                                              "src": "https://8thlight.com/images/logos/logo-color-ddaacb3d.svg",
+                                            },
+                                            "children": Array [],
+                                            "name": "img",
+                                            "namespace": "http://www.w3.org/1999/xhtml",
+                                            "next": null,
+                                            "parent": [Circular],
+                                            "prev": null,
+                                            "type": "tag",
+                                            "x-attribsNamespace": Object {
+                                              "src": undefined,
+                                            },
+                                            "x-attribsPrefix": Object {
+                                              "src": undefined,
+                                            },
+                                          },
+                                        ],
+                                        "name": "div",
+                                        "namespace": "http://www.w3.org/1999/xhtml",
+                                        "next": [Circular],
+                                        "parent": [Circular],
+                                        "prev": null,
+                                        "type": "tag",
+                                        "x-attribsNamespace": Object {
+                                          "class": undefined,
+                                        },
+                                        "x-attribsPrefix": Object {
+                                          "class": undefined,
+                                        },
+                                      },
+                                      "type": "tag",
+                                      "x-attribsNamespace": Object {},
+                                      "x-attribsPrefix": Object {},
+                                    },
+                                  ],
+                                  "name": "div",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": [Circular],
+                                  "parent": [Circular],
+                                  "prev": null,
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "class": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "class": undefined,
+                                  },
+                                },
+                                "type": "tag",
+                                "x-attribsNamespace": Object {
+                                  "class": undefined,
+                                },
+                                "x-attribsPrefix": Object {
+                                  "class": undefined,
+                                },
+                              },
+                            ],
+                            "name": "div",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "tag",
+                            "x-attribsNamespace": Object {},
+                            "x-attribsPrefix": Object {},
+                          },
+                        ],
+                        "name": "div",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                        "x-attribsNamespace": Object {},
+                        "x-attribsPrefix": Object {},
+                      },
+                    ],
+                    "name": "div",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": [Circular],
+                    "parent": [Circular],
+                    "prev": Object {
+                      "attribs": Object {
+                        "class": "card-image",
+                      },
+                      "children": Array [
+                        Object {
+                          "attribs": Object {
+                            "class": "",
+                            "src": "",
+                          },
+                          "children": Array [],
+                          "name": "img",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": Object {
+                            "attribs": Object {
+                              "class": "card-title",
+                            },
+                            "children": Array [],
+                            "name": "span",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": [Circular],
+                            "type": "tag",
+                            "x-attribsNamespace": Object {
+                              "class": undefined,
+                            },
+                            "x-attribsPrefix": Object {
+                              "class": undefined,
+                            },
+                          },
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                          "x-attribsNamespace": Object {
+                            "class": undefined,
+                            "src": undefined,
+                          },
+                          "x-attribsPrefix": Object {
+                            "class": undefined,
+                            "src": undefined,
+                          },
+                        },
+                        Object {
+                          "attribs": Object {
+                            "class": "card-title",
+                          },
+                          "children": Array [],
+                          "name": "span",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": Object {
+                            "attribs": Object {
+                              "class": "",
+                              "src": "",
+                            },
+                            "children": Array [],
+                            "name": "img",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": [Circular],
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "tag",
+                            "x-attribsNamespace": Object {
+                              "class": undefined,
+                              "src": undefined,
+                            },
+                            "x-attribsPrefix": Object {
+                              "class": undefined,
+                              "src": undefined,
+                            },
+                          },
+                          "type": "tag",
+                          "x-attribsNamespace": Object {
+                            "class": undefined,
+                          },
+                          "x-attribsPrefix": Object {
+                            "class": undefined,
+                          },
+                        },
+                      ],
+                      "name": "div",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": [Circular],
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                      },
+                    },
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                    },
+                  },
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                  },
+                },
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                },
+              },
+            ],
+            "name": "div",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": null,
+            "parent": [Circular],
+            "prev": null,
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+            },
+          },
+        ],
+        "name": "div",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": null,
+        "parent": [Circular],
+        "prev": null,
+        "type": "tag",
+        "x-attribsNamespace": Object {
+          "class": undefined,
+        },
+        "x-attribsPrefix": Object {
+          "class": undefined,
+        },
+      },
+    ],
+    "name": "div",
+    "namespace": "http://www.w3.org/1999/xhtml",
+    "next": null,
+    "parent": null,
+    "prev": null,
+    "root": Object {
+      "attribs": Object {},
+      "children": Array [
+        [Circular],
+      ],
+      "name": "root",
+      "namespace": "http://www.w3.org/1999/xhtml",
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "type": "root",
+      "x-attribsNamespace": Object {},
+      "x-attribsPrefix": Object {},
+    },
+    "type": "tag",
+    "x-attribsNamespace": Object {
+      "class": undefined,
+    },
+    "x-attribsPrefix": Object {
+      "class": undefined,
+    },
+  },
+  "_root": [Circular],
+  "length": 1,
+  "options": Object {
+    "decodeEntities": true,
+    "normalizeWhitespace": false,
+    "withDomLvl1": true,
+    "xml": false,
+  },
+}
+`;

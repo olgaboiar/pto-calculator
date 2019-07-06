@@ -7,6 +7,7 @@ class GuestView extends React.Component {
 			<Row>
 				<Col m={6} s={12} offset={"m3"}>
 					<Card
+						className="center-align"
 						header={<CardTitle image={require('../../assets/images/sun.jpeg')}/>}
 						actions={[<a
 							className="blue-text text-lighten-3"

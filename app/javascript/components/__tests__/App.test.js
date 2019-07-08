@@ -2,10 +2,18 @@ import { mount } from "enzyme";
 import * as React from "react";
 import App from "../App"
 
+const appState = {
+  user: {},
+  employee: {
+    start_date: null,
+    position: null
+  }  
+}
+
 describe("App.js", () => {
   it("renders correctly", () => {
     const wrapper = mount(
-      <App />, { attachToDocument: true }
+      <App appState={appState} />, { attachToDocument: true }
     );
   
     expect(wrapper).toMatchSnapshot();

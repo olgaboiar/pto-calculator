@@ -12,7 +12,7 @@ initialize {
         "attribs": Object {},
         "children": Array [
           Object {
-            "data": "Select Your Start Date: ",
+            "data": "Select Your : ",
             "next": null,
             "parent": [Circular],
             "prev": null,
@@ -152,7 +152,7 @@ initialize {
           "attribs": Object {},
           "children": Array [
             Object {
-              "data": "Select Your Start Date: ",
+              "data": "Select Your : ",
               "next": null,
               "parent": [Circular],
               "prev": null,

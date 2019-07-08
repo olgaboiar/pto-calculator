@@ -1,12 +1,13 @@
 import React from 'react';
+import { Row, Col, Card, CardTitle } from 'react-materialize';
 
 class Pto extends React.Component {
   constructor(props) {
     super(props);
-
     this.state = {
-      ptoHours: this.props.ptoHours
-    } 
+      user: this.props.user,
+      ptoHours: this.props.user.pto
+    }
   }
 
   changePtoHoursValue = (hours) => {
@@ -18,11 +19,23 @@ class Pto extends React.Component {
   render () {
     if (this.state.ptoHours) {
       return (
-        <div className="row">
-          <div className="col s12 m6 l4 offset-l4">
-            <p>You have {this.state.ptoHours} PTO hours, which is equal to {this.state.ptoHours / 8} vacation days.</p>
-          </div>
-        </div>
+        <Row>
+				  <Col s={12}>
+					  <Card
+              className="center-align"
+              horizontal
+						  header={<CardTitle image={require('../../assets/images/flamingo.jpeg')}/>}
+					  >
+              <div>
+                <Row>
+                  <Col>
+                    <p>You have {this.state.ptoHours} PTO hours, which equals to {this.state.ptoHours / 8} vacation days.</p>
+                  </Col>
+                </Row>
+              </div>
+					</Card>
+				</Col>
+			</Row>
       )}
     return null;
   }

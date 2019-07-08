@@ -1,4 +1,5 @@
 import React from 'react'
+import axios from "axios";
 import GuestView from './GuestView';
 import EmployeeView from './EmployeeView';
 
@@ -7,13 +8,21 @@ import EmployeeView from './EmployeeView';
 
 class App extends React.Component {
   constructor(props){
+    
     super(props);
-    var user = (this.props.user) ? this.props.user : null
+    console.log(this.props.appState)
+    let user;
+    // var user = (this.props.appState.user) ? this.props.appState.user : null
+    if (this.props.appState.user) {
+      user = {
+        user: this.props.appState.user,
+        profile: this.props.appState.employee
+      }
+    } else { null }
     this.state = {
       currentUser: user
     }
     this.updateCurrentUser = this.updateCurrentUser.bind(this);
-    // this.menu.current.changePtoHoursValue(this.state.ptoHours);
     }
 
   updateCurrentUser(user) {
@@ -25,7 +34,6 @@ class App extends React.Component {
   render () {
     let view;
     if (this.state.currentUser) {
-      // view = <Profile currentUser={this.state.currentUser}/>
       view = <EmployeeView currentUser={this.state.currentUser}/>
     } else {
       view = <GuestView />

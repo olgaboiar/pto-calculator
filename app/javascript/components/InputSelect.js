@@ -5,27 +5,30 @@ class InputSelect extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      positionOptions: this.props.options,
-      label: this.props.label
+      options: this.props.options,
+      label: this.props.label,
+      value: this.props.value
     };
-  
+
     this.handleChange = this.handleChange.bind(this);
   }
 
-  handleChange = position => {
-    this.props.onChange(position);
+  handleChange = value => {
+    this.setState({
+        value: value.value
+      });
+    this.props.onChange(value.value);
   }
   
   render() {
-    const positionOptions = this.props.options;
     return (
       <div className="form-group row center-align" data-testid="position">
-        <div className="col s12 m6 l4 offset-l4">
+        <div className="">
           <label>Select Your {this.state.label}: </label>
           <Select
-            options={positionOptions}
+            options={this.state.options}
             onChange={this.handleChange}
-            defaultValue={positionOptions[0]}
+            value={this.state.options.filter(({value}) => value === this.state.value)}
           />
         </div>
       </div>

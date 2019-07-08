@@ -2,6 +2,969 @@
 
 exports[`Pto.js renders correctly 1`] = `
 initialize {
+  "0": Object {
+    "attribs": Object {
+      "class": "row",
+    },
+    "children": Array [
+      Object {
+        "attribs": Object {
+          "class": "col s12",
+        },
+        "children": Array [
+          Object {
+            "attribs": Object {
+              "class": "center-align card horizontal",
+            },
+            "children": Array [
+              Object {
+                "attribs": Object {
+                  "class": "card-image",
+                },
+                "children": Array [
+                  Object {
+                    "attribs": Object {
+                      "class": "",
+                      "src": "",
+                    },
+                    "children": Array [],
+                    "name": "img",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": Object {
+                      "attribs": Object {
+                        "class": "card-title",
+                      },
+                      "children": Array [],
+                      "name": "span",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": [Circular],
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                      },
+                    },
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                      "src": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                      "src": undefined,
+                    },
+                  },
+                  Object {
+                    "attribs": Object {
+                      "class": "card-title",
+                    },
+                    "children": Array [],
+                    "name": "span",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": Object {
+                      "attribs": Object {
+                        "class": "",
+                        "src": "",
+                      },
+                      "children": Array [],
+                      "name": "img",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": [Circular],
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                        "src": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                        "src": undefined,
+                      },
+                    },
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                    },
+                  },
+                ],
+                "name": "div",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": Object {
+                  "attribs": Object {
+                    "class": "card-stacked",
+                  },
+                  "children": Array [
+                    Object {
+                      "attribs": Object {
+                        "class": "card-content",
+                      },
+                      "children": Array [
+                        Object {
+                          "attribs": Object {},
+                          "children": Array [
+                            Object {
+                              "attribs": Object {},
+                              "children": Array [
+                                Object {
+                                  "attribs": Object {
+                                    "class": "row",
+                                  },
+                                  "children": Array [
+                                    Object {
+                                      "attribs": Object {
+                                        "class": "col",
+                                      },
+                                      "children": Array [
+                                        Object {
+                                          "attribs": Object {},
+                                          "children": Array [
+                                            Object {
+                                              "data": "You have 12 PTO hours, which equals to 1.5 vacation days.",
+                                              "next": null,
+                                              "parent": [Circular],
+                                              "prev": null,
+                                              "type": "text",
+                                            },
+                                          ],
+                                          "name": "p",
+                                          "namespace": "http://www.w3.org/1999/xhtml",
+                                          "next": null,
+                                          "parent": [Circular],
+                                          "prev": null,
+                                          "type": "tag",
+                                          "x-attribsNamespace": Object {},
+                                          "x-attribsPrefix": Object {},
+                                        },
+                                      ],
+                                      "name": "div",
+                                      "namespace": "http://www.w3.org/1999/xhtml",
+                                      "next": null,
+                                      "parent": [Circular],
+                                      "prev": null,
+                                      "type": "tag",
+                                      "x-attribsNamespace": Object {
+                                        "class": undefined,
+                                      },
+                                      "x-attribsPrefix": Object {
+                                        "class": undefined,
+                                      },
+                                    },
+                                  ],
+                                  "name": "div",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": null,
+                                  "parent": [Circular],
+                                  "prev": null,
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "class": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "class": undefined,
+                                  },
+                                },
+                              ],
+                              "name": "div",
+                              "namespace": "http://www.w3.org/1999/xhtml",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "tag",
+                              "x-attribsNamespace": Object {},
+                              "x-attribsPrefix": Object {},
+                            },
+                          ],
+                          "name": "div",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                          "x-attribsNamespace": Object {},
+                          "x-attribsPrefix": Object {},
+                        },
+                      ],
+                      "name": "div",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": Object {
+                        "attribs": Object {
+                          "class": "card-reveal",
+                        },
+                        "children": Array [
+                          Object {
+                            "attribs": Object {
+                              "class": "card-title",
+                            },
+                            "children": Array [
+                              Object {
+                                "attribs": Object {
+                                  "class": "material-icons right",
+                                },
+                                "children": Array [
+                                  Object {
+                                    "data": "close",
+                                    "next": null,
+                                    "parent": [Circular],
+                                    "prev": null,
+                                    "type": "text",
+                                  },
+                                ],
+                                "name": "i",
+                                "namespace": "http://www.w3.org/1999/xhtml",
+                                "next": null,
+                                "parent": [Circular],
+                                "prev": null,
+                                "type": "tag",
+                                "x-attribsNamespace": Object {
+                                  "class": undefined,
+                                },
+                                "x-attribsPrefix": Object {
+                                  "class": undefined,
+                                },
+                              },
+                            ],
+                            "name": "span",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "tag",
+                            "x-attribsNamespace": Object {
+                              "class": undefined,
+                            },
+                            "x-attribsPrefix": Object {
+                              "class": undefined,
+                            },
+                          },
+                        ],
+                        "name": "div",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": [Circular],
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "class": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "class": undefined,
+                        },
+                      },
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                      },
+                    },
+                    Object {
+                      "attribs": Object {
+                        "class": "card-reveal",
+                      },
+                      "children": Array [
+                        Object {
+                          "attribs": Object {
+                            "class": "card-title",
+                          },
+                          "children": Array [
+                            Object {
+                              "attribs": Object {
+                                "class": "material-icons right",
+                              },
+                              "children": Array [
+                                Object {
+                                  "data": "close",
+                                  "next": null,
+                                  "parent": [Circular],
+                                  "prev": null,
+                                  "type": "text",
+                                },
+                              ],
+                              "name": "i",
+                              "namespace": "http://www.w3.org/1999/xhtml",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "tag",
+                              "x-attribsNamespace": Object {
+                                "class": undefined,
+                              },
+                              "x-attribsPrefix": Object {
+                                "class": undefined,
+                              },
+                            },
+                          ],
+                          "name": "span",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                          "x-attribsNamespace": Object {
+                            "class": undefined,
+                          },
+                          "x-attribsPrefix": Object {
+                            "class": undefined,
+                          },
+                        },
+                      ],
+                      "name": "div",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": Object {
+                        "attribs": Object {
+                          "class": "card-content",
+                        },
+                        "children": Array [
+                          Object {
+                            "attribs": Object {},
+                            "children": Array [
+                              Object {
+                                "attribs": Object {},
+                                "children": Array [
+                                  Object {
+                                    "attribs": Object {
+                                      "class": "row",
+                                    },
+                                    "children": Array [
+                                      Object {
+                                        "attribs": Object {
+                                          "class": "col",
+                                        },
+                                        "children": Array [
+                                          Object {
+                                            "attribs": Object {},
+                                            "children": Array [
+                                              Object {
+                                                "data": "You have 12 PTO hours, which equals to 1.5 vacation days.",
+                                                "next": null,
+                                                "parent": [Circular],
+                                                "prev": null,
+                                                "type": "text",
+                                              },
+                                            ],
+                                            "name": "p",
+                                            "namespace": "http://www.w3.org/1999/xhtml",
+                                            "next": null,
+                                            "parent": [Circular],
+                                            "prev": null,
+                                            "type": "tag",
+                                            "x-attribsNamespace": Object {},
+                                            "x-attribsPrefix": Object {},
+                                          },
+                                        ],
+                                        "name": "div",
+                                        "namespace": "http://www.w3.org/1999/xhtml",
+                                        "next": null,
+                                        "parent": [Circular],
+                                        "prev": null,
+                                        "type": "tag",
+                                        "x-attribsNamespace": Object {
+                                          "class": undefined,
+                                        },
+                                        "x-attribsPrefix": Object {
+                                          "class": undefined,
+                                        },
+                                      },
+                                    ],
+                                    "name": "div",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": null,
+                                    "parent": [Circular],
+                                    "prev": null,
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {
+                                      "class": undefined,
+                                    },
+                                    "x-attribsPrefix": Object {
+                                      "class": undefined,
+                                    },
+                                  },
+                                ],
+                                "name": "div",
+                                "namespace": "http://www.w3.org/1999/xhtml",
+                                "next": null,
+                                "parent": [Circular],
+                                "prev": null,
+                                "type": "tag",
+                                "x-attribsNamespace": Object {},
+                                "x-attribsPrefix": Object {},
+                              },
+                            ],
+                            "name": "div",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "tag",
+                            "x-attribsNamespace": Object {},
+                            "x-attribsPrefix": Object {},
+                          },
+                        ],
+                        "name": "div",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": [Circular],
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "class": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "class": undefined,
+                        },
+                      },
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                      },
+                    },
+                  ],
+                  "name": "div",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": [Circular],
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                  },
+                },
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                },
+              },
+              Object {
+                "attribs": Object {
+                  "class": "card-stacked",
+                },
+                "children": Array [
+                  Object {
+                    "attribs": Object {
+                      "class": "card-content",
+                    },
+                    "children": Array [
+                      Object {
+                        "attribs": Object {},
+                        "children": Array [
+                          Object {
+                            "attribs": Object {},
+                            "children": Array [
+                              Object {
+                                "attribs": Object {
+                                  "class": "row",
+                                },
+                                "children": Array [
+                                  Object {
+                                    "attribs": Object {
+                                      "class": "col",
+                                    },
+                                    "children": Array [
+                                      Object {
+                                        "attribs": Object {},
+                                        "children": Array [
+                                          Object {
+                                            "data": "You have 12 PTO hours, which equals to 1.5 vacation days.",
+                                            "next": null,
+                                            "parent": [Circular],
+                                            "prev": null,
+                                            "type": "text",
+                                          },
+                                        ],
+                                        "name": "p",
+                                        "namespace": "http://www.w3.org/1999/xhtml",
+                                        "next": null,
+                                        "parent": [Circular],
+                                        "prev": null,
+                                        "type": "tag",
+                                        "x-attribsNamespace": Object {},
+                                        "x-attribsPrefix": Object {},
+                                      },
+                                    ],
+                                    "name": "div",
+                                    "namespace": "http://www.w3.org/1999/xhtml",
+                                    "next": null,
+                                    "parent": [Circular],
+                                    "prev": null,
+                                    "type": "tag",
+                                    "x-attribsNamespace": Object {
+                                      "class": undefined,
+                                    },
+                                    "x-attribsPrefix": Object {
+                                      "class": undefined,
+                                    },
+                                  },
+                                ],
+                                "name": "div",
+                                "namespace": "http://www.w3.org/1999/xhtml",
+                                "next": null,
+                                "parent": [Circular],
+                                "prev": null,
+                                "type": "tag",
+                                "x-attribsNamespace": Object {
+                                  "class": undefined,
+                                },
+                                "x-attribsPrefix": Object {
+                                  "class": undefined,
+                                },
+                              },
+                            ],
+                            "name": "div",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "tag",
+                            "x-attribsNamespace": Object {},
+                            "x-attribsPrefix": Object {},
+                          },
+                        ],
+                        "name": "div",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                        "x-attribsNamespace": Object {},
+                        "x-attribsPrefix": Object {},
+                      },
+                    ],
+                    "name": "div",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": Object {
+                      "attribs": Object {
+                        "class": "card-reveal",
+                      },
+                      "children": Array [
+                        Object {
+                          "attribs": Object {
+                            "class": "card-title",
+                          },
+                          "children": Array [
+                            Object {
+                              "attribs": Object {
+                                "class": "material-icons right",
+                              },
+                              "children": Array [
+                                Object {
+                                  "data": "close",
+                                  "next": null,
+                                  "parent": [Circular],
+                                  "prev": null,
+                                  "type": "text",
+                                },
+                              ],
+                              "name": "i",
+                              "namespace": "http://www.w3.org/1999/xhtml",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "tag",
+                              "x-attribsNamespace": Object {
+                                "class": undefined,
+                              },
+                              "x-attribsPrefix": Object {
+                                "class": undefined,
+                              },
+                            },
+                          ],
+                          "name": "span",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                          "x-attribsNamespace": Object {
+                            "class": undefined,
+                          },
+                          "x-attribsPrefix": Object {
+                            "class": undefined,
+                          },
+                        },
+                      ],
+                      "name": "div",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": [Circular],
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                      },
+                    },
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                    },
+                  },
+                  Object {
+                    "attribs": Object {
+                      "class": "card-reveal",
+                    },
+                    "children": Array [
+                      Object {
+                        "attribs": Object {
+                          "class": "card-title",
+                        },
+                        "children": Array [
+                          Object {
+                            "attribs": Object {
+                              "class": "material-icons right",
+                            },
+                            "children": Array [
+                              Object {
+                                "data": "close",
+                                "next": null,
+                                "parent": [Circular],
+                                "prev": null,
+                                "type": "text",
+                              },
+                            ],
+                            "name": "i",
+                            "namespace": "http://www.w3.org/1999/xhtml",
+                            "next": null,
+                            "parent": [Circular],
+                            "prev": null,
+                            "type": "tag",
+                            "x-attribsNamespace": Object {
+                              "class": undefined,
+                            },
+                            "x-attribsPrefix": Object {
+                              "class": undefined,
+                            },
+                          },
+                        ],
+                        "name": "span",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "class": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "class": undefined,
+                        },
+                      },
+                    ],
+                    "name": "div",
+                    "namespace": "http://www.w3.org/1999/xhtml",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": Object {
+                      "attribs": Object {
+                        "class": "card-content",
+                      },
+                      "children": Array [
+                        Object {
+                          "attribs": Object {},
+                          "children": Array [
+                            Object {
+                              "attribs": Object {},
+                              "children": Array [
+                                Object {
+                                  "attribs": Object {
+                                    "class": "row",
+                                  },
+                                  "children": Array [
+                                    Object {
+                                      "attribs": Object {
+                                        "class": "col",
+                                      },
+                                      "children": Array [
+                                        Object {
+                                          "attribs": Object {},
+                                          "children": Array [
+                                            Object {
+                                              "data": "You have 12 PTO hours, which equals to 1.5 vacation days.",
+                                              "next": null,
+                                              "parent": [Circular],
+                                              "prev": null,
+                                              "type": "text",
+                                            },
+                                          ],
+                                          "name": "p",
+                                          "namespace": "http://www.w3.org/1999/xhtml",
+                                          "next": null,
+                                          "parent": [Circular],
+                                          "prev": null,
+                                          "type": "tag",
+                                          "x-attribsNamespace": Object {},
+                                          "x-attribsPrefix": Object {},
+                                        },
+                                      ],
+                                      "name": "div",
+                                      "namespace": "http://www.w3.org/1999/xhtml",
+                                      "next": null,
+                                      "parent": [Circular],
+                                      "prev": null,
+                                      "type": "tag",
+                                      "x-attribsNamespace": Object {
+                                        "class": undefined,
+                                      },
+                                      "x-attribsPrefix": Object {
+                                        "class": undefined,
+                                      },
+                                    },
+                                  ],
+                                  "name": "div",
+                                  "namespace": "http://www.w3.org/1999/xhtml",
+                                  "next": null,
+                                  "parent": [Circular],
+                                  "prev": null,
+                                  "type": "tag",
+                                  "x-attribsNamespace": Object {
+                                    "class": undefined,
+                                  },
+                                  "x-attribsPrefix": Object {
+                                    "class": undefined,
+                                  },
+                                },
+                              ],
+                              "name": "div",
+                              "namespace": "http://www.w3.org/1999/xhtml",
+                              "next": null,
+                              "parent": [Circular],
+                              "prev": null,
+                              "type": "tag",
+                              "x-attribsNamespace": Object {},
+                              "x-attribsPrefix": Object {},
+                            },
+                          ],
+                          "name": "div",
+                          "namespace": "http://www.w3.org/1999/xhtml",
+                          "next": null,
+                          "parent": [Circular],
+                          "prev": null,
+                          "type": "tag",
+                          "x-attribsNamespace": Object {},
+                          "x-attribsPrefix": Object {},
+                        },
+                      ],
+                      "name": "div",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": [Circular],
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                      },
+                    },
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                    },
+                  },
+                ],
+                "name": "div",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": null,
+                "parent": [Circular],
+                "prev": Object {
+                  "attribs": Object {
+                    "class": "card-image",
+                  },
+                  "children": Array [
+                    Object {
+                      "attribs": Object {
+                        "class": "",
+                        "src": "",
+                      },
+                      "children": Array [],
+                      "name": "img",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": Object {
+                        "attribs": Object {
+                          "class": "card-title",
+                        },
+                        "children": Array [],
+                        "name": "span",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": [Circular],
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "class": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "class": undefined,
+                        },
+                      },
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                        "src": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                        "src": undefined,
+                      },
+                    },
+                    Object {
+                      "attribs": Object {
+                        "class": "card-title",
+                      },
+                      "children": Array [],
+                      "name": "span",
+                      "namespace": "http://www.w3.org/1999/xhtml",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": Object {
+                        "attribs": Object {
+                          "class": "",
+                          "src": "",
+                        },
+                        "children": Array [],
+                        "name": "img",
+                        "namespace": "http://www.w3.org/1999/xhtml",
+                        "next": [Circular],
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "tag",
+                        "x-attribsNamespace": Object {
+                          "class": undefined,
+                          "src": undefined,
+                        },
+                        "x-attribsPrefix": Object {
+                          "class": undefined,
+                          "src": undefined,
+                        },
+                      },
+                      "type": "tag",
+                      "x-attribsNamespace": Object {
+                        "class": undefined,
+                      },
+                      "x-attribsPrefix": Object {
+                        "class": undefined,
+                      },
+                    },
+                  ],
+                  "name": "div",
+                  "namespace": "http://www.w3.org/1999/xhtml",
+                  "next": [Circular],
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                  },
+                },
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                },
+              },
+            ],
+            "name": "div",
+            "namespace": "http://www.w3.org/1999/xhtml",
+            "next": null,
+            "parent": [Circular],
+            "prev": null,
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+            },
+          },
+        ],
+        "name": "div",
+        "namespace": "http://www.w3.org/1999/xhtml",
+        "next": null,
+        "parent": [Circular],
+        "prev": null,
+        "type": "tag",
+        "x-attribsNamespace": Object {
+          "class": undefined,
+        },
+        "x-attribsPrefix": Object {
+          "class": undefined,
+        },
+      },
+    ],
+    "name": "div",
+    "namespace": "http://www.w3.org/1999/xhtml",
+    "next": null,
+    "parent": null,
+    "prev": null,
+    "root": Object {
+      "attribs": Object {},
+      "children": Array [
+        [Circular],
+      ],
+      "name": "root",
+      "namespace": "http://www.w3.org/1999/xhtml",
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "type": "root",
+      "x-attribsNamespace": Object {},
+      "x-attribsPrefix": Object {},
+    },
+    "type": "tag",
+    "x-attribsNamespace": Object {
+      "class": undefined,
+    },
+    "x-attribsPrefix": Object {
+      "class": undefined,
+    },
+  },
+  "_root": [Circular],
+  "length": 1,
   "options": Object {
     "decodeEntities": true,
     "normalizeWhitespace": false,

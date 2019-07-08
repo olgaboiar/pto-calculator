@@ -21,8 +21,9 @@ describe("InputSelect.js", () => {
     const wrapper = mount(
       <InputSelect 
         options={testOptions}
+        value={testOptions[1].value}
       />);
     
-    expect(wrapper.html()).toContain('Chocolate');
+    expect(wrapper.html()).toContain('Strawberry');
   });
 })

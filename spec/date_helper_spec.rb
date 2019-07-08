@@ -44,4 +44,20 @@ describe DateHelper do
       expect(actual).to eq(4)
     end
   end
+
+  describe '#gsame_month?' do
+    it 'should return true if staring date month and graduation date month are same' do
+      starting_date = Date.new(2019,6,1)
+      graduation_date = Date.new(2019,6,15)
+      actual = @date_helper.same_month?(starting_date, graduation_date)
+      expect(actual).to be true
+    end
+
+    it 'should return false if staring date month and graduation date month are not same' do
+      starting_date = Date.new(2019,1,1)
+      graduation_date = Date.new(2019,6,1)
+      actual = @date_helper.same_month?(starting_date, graduation_date)
+      expect(actual).to be false
+    end
+  end
 end

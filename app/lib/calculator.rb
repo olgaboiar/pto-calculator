@@ -18,6 +18,7 @@ class Calculator
   end
 
   def calculate_single_rate(date, position)
+    return nil if date == nil
     months = @date_helper.get_working_month_amount(date)
     (months * StaticData::RATES[position.to_sym]).round 
   end

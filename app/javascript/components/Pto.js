@@ -29,7 +29,7 @@ class Pto extends React.Component {
               <div>
                 <Row>
                   <Col>
-                    <p>You have {this.state.ptoHours} PTO hours, which equals to {this.state.ptoHours / 8} vacation days.</p>
+                    <p>You have {this.state.ptoHours} PTO hours, which equals to {Math.round((this.state.ptoHours / 8)*2)/2} vacation days.</p>
                   </Col>
                 </Row>
               </div>

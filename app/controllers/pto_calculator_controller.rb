@@ -1,18 +1,17 @@
 # frozen_string_literal: true
 
 class PtoCalculatorController < ApplicationController
-  before_action :get_calculator, :authenticate_user!
+  before_action :get_calculator
+  before_action :authenticate_user!, only: [:calculate]
 
   def index
-  end
-
-  def calculate
-    hash = { crafter: 13.3, apprentice: 4 }
-    start_date = params[:start_date]
-    position = params[:position]
-    rate = position[:value]
-    response = @calculator.calculate(start_date, hash[rate.to_sym])
-    render json: { response: response }
+    if user_signed_in?
+      @user = current_user
+      @employee = Employee.find_by(user_id: @user.id)
+      @pto = @calculator.calculate(@employee.start_date, @employee.graduation_date, @employee.current_position, @employee.starting_position)
+    else
+      @user = nil
+    end
   end
 
   private
@@ -21,4 +20,3 @@ class PtoCalculatorController < ApplicationController
     @calculator = Calculator.new(date_helper)
   end
 end
-  

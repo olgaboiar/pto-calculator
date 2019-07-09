@@ -3,5 +3,5 @@
 Rails.application.routes.draw do
   devise_for :users
   root 'pto_calculator#index'
-  post 'calculate', to: 'pto_calculator#calculate'
+  post 'update', to: 'employee#update'
 end

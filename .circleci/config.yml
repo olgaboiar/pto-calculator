@@ -23,6 +23,7 @@ jobs:
 
       - run: gem update --system
       - run: gem install bundler
+      - run: gem install rails
       - run: bundle install --jobs=4 --retry=3 --path vendor/bundle
       - run: yarn install
 
@@ -48,6 +49,7 @@ jobs:
               --format progress \
               $TEST_FILES
       - run: yarn test
+      - run: rails test
       # - run: bundle exec cucumber
       # collect reports
       - store_test_results:

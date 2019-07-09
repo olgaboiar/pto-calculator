@@ -2,6 +2,7 @@
   var appState = {
     user: <%= @user.to_json.html_safe %>,
     employee: <%= @employee.to_json.html_safe %>,
+    employment: <%= @employment.to_json.html_safe %>,
     pto: <%= @pto.to_json.html_safe %>
   } 
 </script>

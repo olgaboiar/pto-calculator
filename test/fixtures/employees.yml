@@ -1,4 +1,6 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+valid: {
+  user_id: 298486374,
+}
 
 one:
   user_id: 1

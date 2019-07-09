@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: 1
+  location: MyString
+  start_date: 2019-07-06
+  current_position: MyString
+  starting_position: MyString
+  graduation_date: 2019-07-06
+
+two:
+  user_id: 2
+  location: MyString
+  start_date: 2019-07-06
+  current_position: MyString
+  starting_position: MyString
+  graduation_date: 2019-07-06

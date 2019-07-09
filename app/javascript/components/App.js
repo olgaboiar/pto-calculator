@@ -10,13 +10,14 @@ class App extends React.Component {
   constructor(props){
     
     super(props);
-    console.log(this.props.appState)
+    // console.log(this.props.appState)
     let user;
     // var user = (this.props.appState.user) ? this.props.appState.user : null
     if (this.props.appState.user) {
       user = {
         user: this.props.appState.user,
-        profile: this.props.appState.employee
+        profile: this.props.appState.employee,
+        pto: this.props.appState.pto
       }
     } else { null }
     this.state = {

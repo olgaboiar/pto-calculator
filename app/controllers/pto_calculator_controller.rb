@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class PtoCalculatorController < ApplicationController
-  before_action :get_calculator
+  before_action :crate_calculator
   before_action :authenticate_user!, only: [:calculate]
 
   def index
@@ -15,8 +15,9 @@ class PtoCalculatorController < ApplicationController
   end
 
   private
-  def get_calculator
-    date_helper = DateHelper.new()
+
+  def crate_calculator
+    date_helper = DateHelper.new
     @calculator = Calculator.new(date_helper)
   end
 end

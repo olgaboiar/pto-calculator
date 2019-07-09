@@ -4,11 +4,11 @@ require 'date'
 
 class DateHelper
   def initialize
-    @current_date = get_current_date
+    @current_date = current_date
   end
 
-  def get_current_date
-    Date.today()
+  def current_date
+    Date.today
   end
 
   def get_working_month_amount(starting_date, graduation_date = @current_date)
@@ -19,4 +19,3 @@ class DateHelper
     graduation_date.month == starting_date.month
   end
 end
-  

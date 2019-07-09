@@ -7,7 +7,12 @@ class EmployeeController < ApplicationController
   end
 
   def employee_params
-    params.permit(:user_id, :location, :start_date, :current_position, :starting_position, :graduation_date)
+    params.permit(
+      :user_id,
+      :location,
+      :start_date,
+      :current_position,
+      :starting_position,
+      :graduation_date)
   end
 end
-    

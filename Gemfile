@@ -60,8 +60,6 @@ group :test do
   gem 'selenium-webdriver'
   gem 'geckodriver-helper'
   # Easy installation and use of chromedriver to run system tests with Chrome
-  gem 'chromedriver-helper'
-  gem 'cucumber-rails', require: false
   gem 'rspec-rails', '~> 3.5'
 end
 

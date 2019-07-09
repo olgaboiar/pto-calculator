@@ -1,6 +1,5 @@
 AllCops:
   Exclude:
-    - lib/tasks/cucumber.rake
     - features/support/env.rb
     - node_modules/**/**/**/*.rb
     - node_modules/**/**/**/**/*.spec

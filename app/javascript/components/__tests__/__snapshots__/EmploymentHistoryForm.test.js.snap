@@ -68,9 +68,7 @@ initialize {
                       },
                       "children": Array [
                         Object {
-                          "attribs": Object {
-                            "class": "",
-                          },
+                          "attribs": Object {},
                           "children": Array [
                             Object {
                               "attribs": Object {
@@ -1315,12 +1313,8 @@ initialize {
                           "parent": [Circular],
                           "prev": null,
                           "type": "tag",
-                          "x-attribsNamespace": Object {
-                            "class": undefined,
-                          },
-                          "x-attribsPrefix": Object {
-                            "class": undefined,
-                          },
+                          "x-attribsNamespace": Object {},
+                          "x-attribsPrefix": Object {},
                         },
                       ],
                       "name": "div",
@@ -2296,9 +2290,7 @@ initialize {
                         },
                         "children": Array [
                           Object {
-                            "attribs": Object {
-                              "class": "",
-                            },
+                            "attribs": Object {},
                             "children": Array [
                               Object {
                                 "attribs": Object {
@@ -3543,12 +3535,8 @@ initialize {
                             "parent": [Circular],
                             "prev": null,
                             "type": "tag",
-                            "x-attribsNamespace": Object {
-                              "class": undefined,
-                            },
-                            "x-attribsPrefix": Object {
-                              "class": undefined,
-                            },
+                            "x-attribsNamespace": Object {},
+                            "x-attribsPrefix": Object {},
                           },
                         ],
                         "name": "div",
@@ -4054,9 +4042,7 @@ initialize {
                           },
                           "children": Array [
                             Object {
-                              "attribs": Object {
-                                "class": "",
-                              },
+                              "attribs": Object {},
                               "children": Array [
                                 Object {
                                   "attribs": Object {
@@ -5301,12 +5287,8 @@ initialize {
                               "parent": [Circular],
                               "prev": null,
                               "type": "tag",
-                              "x-attribsNamespace": Object {
-                                "class": undefined,
-                              },
-                              "x-attribsPrefix": Object {
-                                "class": undefined,
-                              },
+                              "x-attribsNamespace": Object {},
+                              "x-attribsPrefix": Object {},
                             },
                           ],
                           "name": "div",
@@ -5812,9 +5794,7 @@ initialize {
                             },
                             "children": Array [
                               Object {
-                                "attribs": Object {
-                                  "class": "",
-                                },
+                                "attribs": Object {},
                                 "children": Array [
                                   Object {
                                     "attribs": Object {
@@ -7059,12 +7039,8 @@ initialize {
                                 "parent": [Circular],
                                 "prev": null,
                                 "type": "tag",
-                                "x-attribsNamespace": Object {
-                                  "class": undefined,
-                                },
-                                "x-attribsPrefix": Object {
-                                  "class": undefined,
-                                },
+                                "x-attribsNamespace": Object {},
+                                "x-attribsPrefix": Object {},
                               },
                             ],
                             "name": "div",
@@ -7326,9 +7302,7 @@ initialize {
                     },
                     "children": Array [
                       Object {
-                        "attribs": Object {
-                          "class": "",
-                        },
+                        "attribs": Object {},
                         "children": Array [
                           Object {
                             "attribs": Object {
@@ -8573,12 +8547,8 @@ initialize {
                         "parent": [Circular],
                         "prev": null,
                         "type": "tag",
-                        "x-attribsNamespace": Object {
-                          "class": undefined,
-                        },
-                        "x-attribsPrefix": Object {
-                          "class": undefined,
-                        },
+                        "x-attribsNamespace": Object {},
+                        "x-attribsPrefix": Object {},
                       },
                     ],
                     "name": "div",
@@ -9554,9 +9524,7 @@ initialize {
                       },
                       "children": Array [
                         Object {
-                          "attribs": Object {
-                            "class": "",
-                          },
+                          "attribs": Object {},
                           "children": Array [
                             Object {
                               "attribs": Object {
@@ -10801,12 +10769,8 @@ initialize {
                           "parent": [Circular],
                           "prev": null,
                           "type": "tag",
-                          "x-attribsNamespace": Object {
-                            "class": undefined,
-                          },
-                          "x-attribsPrefix": Object {
-                            "class": undefined,
-                          },
+                          "x-attribsNamespace": Object {},
+                          "x-attribsPrefix": Object {},
                         },
                       ],
                       "name": "div",
@@ -11312,9 +11276,7 @@ initialize {
                         },
                         "children": Array [
                           Object {
-                            "attribs": Object {
-                              "class": "",
-                            },
+                            "attribs": Object {},
                             "children": Array [
                               Object {
                                 "attribs": Object {
@@ -12559,12 +12521,8 @@ initialize {
                             "parent": [Circular],
                             "prev": null,
                             "type": "tag",
-                            "x-attribsNamespace": Object {
-                              "class": undefined,
-                            },
-                            "x-attribsPrefix": Object {
-                              "class": undefined,
-                            },
+                            "x-attribsNamespace": Object {},
+                            "x-attribsPrefix": Object {},
                           },
                         ],
                         "name": "div",
@@ -13070,9 +13028,7 @@ initialize {
                           },
                           "children": Array [
                             Object {
-                              "attribs": Object {
-                                "class": "",
-                              },
+                              "attribs": Object {},
                               "children": Array [
                                 Object {
                                   "attribs": Object {
@@ -14317,12 +14273,8 @@ initialize {
                               "parent": [Circular],
                               "prev": null,
                               "type": "tag",
-                              "x-attribsNamespace": Object {
-                                "class": undefined,
-                              },
-                              "x-attribsPrefix": Object {
-                                "class": undefined,
-                              },
+                              "x-attribsNamespace": Object {},
+                              "x-attribsPrefix": Object {},
                             },
                           ],
                           "name": "div",
@@ -14581,9 +14533,7 @@ initialize {
                   },
                   "children": Array [
                     Object {
-                      "attribs": Object {
-                        "class": "",
-                      },
+                      "attribs": Object {},
                       "children": Array [
                         Object {
                           "attribs": Object {
@@ -15828,12 +15778,8 @@ initialize {
                       "parent": [Circular],
                       "prev": null,
                       "type": "tag",
-                      "x-attribsNamespace": Object {
-                        "class": undefined,
-                      },
-                      "x-attribsPrefix": Object {
-                        "class": undefined,
-                      },
+                      "x-attribsNamespace": Object {},
+                      "x-attribsPrefix": Object {},
                     },
                   ],
                   "name": "div",
@@ -16809,9 +16755,7 @@ initialize {
                     },
                     "children": Array [
                       Object {
-                        "attribs": Object {
-                          "class": "",
-                        },
+                        "attribs": Object {},
                         "children": Array [
                           Object {
                             "attribs": Object {
@@ -18056,12 +18000,8 @@ initialize {
                         "parent": [Circular],
                         "prev": null,
                         "type": "tag",
-                        "x-attribsNamespace": Object {
-                          "class": undefined,
-                        },
-                        "x-attribsPrefix": Object {
-                          "class": undefined,
-                        },
+                        "x-attribsNamespace": Object {},
+                        "x-attribsPrefix": Object {},
                       },
                     ],
                     "name": "div",
@@ -18567,9 +18507,7 @@ initialize {
                       },
                       "children": Array [
                         Object {
-                          "attribs": Object {
-                            "class": "",
-                          },
+                          "attribs": Object {},
                           "children": Array [
                             Object {
                               "attribs": Object {
@@ -19814,12 +19752,8 @@ initialize {
                           "parent": [Circular],
                           "prev": null,
                           "type": "tag",
-                          "x-attribsNamespace": Object {
-                            "class": undefined,
-                          },
-                          "x-attribsPrefix": Object {
-                            "class": undefined,
-                          },
+                          "x-attribsNamespace": Object {},
+                          "x-attribsPrefix": Object {},
                         },
                       ],
                       "name": "div",
@@ -20325,9 +20259,7 @@ initialize {
                         },
                         "children": Array [
                           Object {
-                            "attribs": Object {
-                              "class": "",
-                            },
+                            "attribs": Object {},
                             "children": Array [
                               Object {
                                 "attribs": Object {
@@ -21572,12 +21504,8 @@ initialize {
                             "parent": [Circular],
                             "prev": null,
                             "type": "tag",
-                            "x-attribsNamespace": Object {
-                              "class": undefined,
-                            },
-                            "x-attribsPrefix": Object {
-                              "class": undefined,
-                            },
+                            "x-attribsNamespace": Object {},
+                            "x-attribsPrefix": Object {},
                           },
                         ],
                         "name": "div",
@@ -21829,9 +21757,7 @@ initialize {
                 },
                 "children": Array [
                   Object {
-                    "attribs": Object {
-                      "class": "",
-                    },
+                    "attribs": Object {},
                     "children": Array [
                       Object {
                         "attribs": Object {
@@ -23076,12 +23002,8 @@ initialize {
                     "parent": [Circular],
                     "prev": null,
                     "type": "tag",
-                    "x-attribsNamespace": Object {
-                      "class": undefined,
-                    },
-                    "x-attribsPrefix": Object {
-                      "class": undefined,
-                    },
+                    "x-attribsNamespace": Object {},
+                    "x-attribsPrefix": Object {},
                   },
                 ],
                 "name": "div",
@@ -24057,9 +23979,7 @@ initialize {
                   },
                   "children": Array [
                     Object {
-                      "attribs": Object {
-                        "class": "",
-                      },
+                      "attribs": Object {},
                       "children": Array [
                         Object {
                           "attribs": Object {
@@ -25304,12 +25224,8 @@ initialize {
                       "parent": [Circular],
                       "prev": null,
                       "type": "tag",
-                      "x-attribsNamespace": Object {
-                        "class": undefined,
-                      },
-                      "x-attribsPrefix": Object {
-                        "class": undefined,
-                      },
+                      "x-attribsNamespace": Object {},
+                      "x-attribsPrefix": Object {},
                     },
                   ],
                   "name": "div",
@@ -25815,9 +25731,7 @@ initialize {
                     },
                     "children": Array [
                       Object {
-                        "attribs": Object {
-                          "class": "",
-                        },
+                        "attribs": Object {},
                         "children": Array [
                           Object {
                             "attribs": Object {
@@ -27062,12 +26976,8 @@ initialize {
                         "parent": [Circular],
                         "prev": null,
                         "type": "tag",
-                        "x-attribsNamespace": Object {
-                          "class": undefined,
-                        },
-                        "x-attribsPrefix": Object {
-                          "class": undefined,
-                        },
+                        "x-attribsNamespace": Object {},
+                        "x-attribsPrefix": Object {},
                       },
                     ],
                     "name": "div",
@@ -27573,9 +27483,7 @@ initialize {
                       },
                       "children": Array [
                         Object {
-                          "attribs": Object {
-                            "class": "",
-                          },
+                          "attribs": Object {},
                           "children": Array [
                             Object {
                               "attribs": Object {
@@ -28820,12 +28728,8 @@ initialize {
                           "parent": [Circular],
                           "prev": null,
                           "type": "tag",
-                          "x-attribsNamespace": Object {
-                            "class": undefined,
-                          },
-                          "x-attribsPrefix": Object {
-                            "class": undefined,
-                          },
+                          "x-attribsNamespace": Object {},
+                          "x-attribsPrefix": Object {},
                         },
                       ],
                       "name": "div",
@@ -29199,9 +29103,7 @@ initialize {
                   },
                   "children": Array [
                     Object {
-                      "attribs": Object {
-                        "class": "",
-                      },
+                      "attribs": Object {},
                       "children": Array [
                         Object {
                           "attribs": Object {
@@ -30446,12 +30348,8 @@ initialize {
                       "parent": [Circular],
                       "prev": null,
                       "type": "tag",
-                      "x-attribsNamespace": Object {
-                        "class": undefined,
-                      },
-                      "x-attribsPrefix": Object {
-                        "class": undefined,
-                      },
+                      "x-attribsNamespace": Object {},
+                      "x-attribsPrefix": Object {},
                     },
                   ],
                   "name": "div",
@@ -31427,9 +31325,7 @@ initialize {
                     },
                     "children": Array [
                       Object {
-                        "attribs": Object {
-                          "class": "",
-                        },
+                        "attribs": Object {},
                         "children": Array [
                           Object {
                             "attribs": Object {
@@ -32674,12 +32570,8 @@ initialize {
                         "parent": [Circular],
                         "prev": null,
                         "type": "tag",
-                        "x-attribsNamespace": Object {
-                          "class": undefined,
-                        },
-                        "x-attribsPrefix": Object {
-                          "class": undefined,
-                        },
+                        "x-attribsNamespace": Object {},
+                        "x-attribsPrefix": Object {},
                       },
                     ],
                     "name": "div",
@@ -33185,9 +33077,7 @@ initialize {
                       },
                       "children": Array [
                         Object {
-                          "attribs": Object {
-                            "class": "",
-                          },
+                          "attribs": Object {},
                           "children": Array [
                             Object {
                               "attribs": Object {
@@ -34432,12 +34322,8 @@ initialize {
                           "parent": [Circular],
                           "prev": null,
                           "type": "tag",
-                          "x-attribsNamespace": Object {
-                            "class": undefined,
-                          },
-                          "x-attribsPrefix": Object {
-                            "class": undefined,
-                          },
+                          "x-attribsNamespace": Object {},
+                          "x-attribsPrefix": Object {},
                         },
                       ],
                       "name": "div",
@@ -34943,9 +34829,7 @@ initialize {
                         },
                         "children": Array [
                           Object {
-                            "attribs": Object {
-                              "class": "",
-                            },
+                            "attribs": Object {},
                             "children": Array [
                               Object {
                                 "attribs": Object {
@@ -36190,12 +36074,8 @@ initialize {
                             "parent": [Circular],
                             "prev": null,
                             "type": "tag",
-                            "x-attribsNamespace": Object {
-                              "class": undefined,
-                            },
-                            "x-attribsPrefix": Object {
-                              "class": undefined,
-                            },
+                            "x-attribsNamespace": Object {},
+                            "x-attribsPrefix": Object {},
                           },
                         ],
                         "name": "div",
@@ -36459,9 +36339,7 @@ initialize {
                     },
                     "children": Array [
                       Object {
-                        "attribs": Object {
-                          "class": "",
-                        },
+                        "attribs": Object {},
                         "children": Array [
                           Object {
                             "attribs": Object {
@@ -37706,12 +37584,8 @@ initialize {
                         "parent": [Circular],
                         "prev": null,
                         "type": "tag",
-                        "x-attribsNamespace": Object {
-                          "class": undefined,
-                        },
-                        "x-attribsPrefix": Object {
-                          "class": undefined,
-                        },
+                        "x-attribsNamespace": Object {},
+                        "x-attribsPrefix": Object {},
                       },
                     ],
                     "name": "div",
@@ -38687,9 +38561,7 @@ initialize {
                       },
                       "children": Array [
                         Object {
-                          "attribs": Object {
-                            "class": "",
-                          },
+                          "attribs": Object {},
                           "children": Array [
                             Object {
                               "attribs": Object {
@@ -39934,12 +39806,8 @@ initialize {
                           "parent": [Circular],
                           "prev": null,
                           "type": "tag",
-                          "x-attribsNamespace": Object {
-                            "class": undefined,
-                          },
-                          "x-attribsPrefix": Object {
-                            "class": undefined,
-                          },
+                          "x-attribsNamespace": Object {},
+                          "x-attribsPrefix": Object {},
                         },
                       ],
                       "name": "div",
@@ -40445,9 +40313,7 @@ initialize {
                         },
                         "children": Array [
                           Object {
-                            "attribs": Object {
-                              "class": "",
-                            },
+                            "attribs": Object {},
                             "children": Array [
                               Object {
                                 "attribs": Object {
@@ -41692,12 +41558,8 @@ initialize {
                             "parent": [Circular],
                             "prev": null,
                             "type": "tag",
-                            "x-attribsNamespace": Object {
-                              "class": undefined,
-                            },
-                            "x-attribsPrefix": Object {
-                              "class": undefined,
-                            },
+                            "x-attribsNamespace": Object {},
+                            "x-attribsPrefix": Object {},
                           },
                         ],
                         "name": "div",
@@ -42203,9 +42065,7 @@ initialize {
                           },
                           "children": Array [
                             Object {
-                              "attribs": Object {
-                                "class": "",
-                              },
+                              "attribs": Object {},
                               "children": Array [
                                 Object {
                                   "attribs": Object {
@@ -43450,12 +43310,8 @@ initialize {
                               "parent": [Circular],
                               "prev": null,
                               "type": "tag",
-                              "x-attribsNamespace": Object {
-                                "class": undefined,
-                              },
-                              "x-attribsPrefix": Object {
-                                "class": undefined,
-                              },
+                              "x-attribsNamespace": Object {},
+                              "x-attribsPrefix": Object {},
                             },
                           ],
                           "name": "div",

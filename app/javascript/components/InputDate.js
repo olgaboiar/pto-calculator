@@ -20,7 +20,7 @@ class InputDate extends React.Component {
 
   render() {
     return (
-      <div className='form-group row center-align' data-testid='startDate'>
+      <div className="form-group row center-align" data-testid="startDate">
         <label>Select date: </label>
         <DatePicker
           onChange={this.handleChange}

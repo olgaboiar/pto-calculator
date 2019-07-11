@@ -6,7 +6,7 @@ import EmploymentHistoryForm from '../EmploymentHistoryForm';
 describe('EmploymentHistoryForm.js', () => {
   const user = {
     user: {
-      id: 56
+      id: 56,
     },
     profile: {
       start_date: moment('2019-01-01').toDate(),
@@ -27,7 +27,7 @@ describe('EmploymentHistoryForm.js', () => {
 
   it('contains InputSelect, InputDate, and Submit Button', () => {
     const wrapper = mount(
-      <EmploymentHistoryForm user={user} message={message}/>,
+      <EmploymentHistoryForm user={user} message={message} />,
     );
 
     const inputSelect = wrapper.find('[data-testid="position"]');

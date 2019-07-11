@@ -16,7 +16,7 @@ class Pto extends React.Component {
     })
   }
 
-  render () {
+  render() {
     let message;
     if (this.state.ptoHours) {
       message = 'You have ' + this.state.ptoHours + ' PTO hours, which equals to ' + Math.round((this.state.ptoHours / 8)*2)/2 + ' vacation days.';
@@ -27,7 +27,7 @@ class Pto extends React.Component {
       <Row>
         <Col s={12}>
           <Card
-            className='center-align'
+            className="center-align"
             horizontal
             header={<CardTitle image={require('../../assets/images/flamingo.jpeg')}/>}
           >

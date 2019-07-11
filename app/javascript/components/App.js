@@ -22,13 +22,13 @@ class App extends React.Component {
       currentUser: user,
     };
     this.updateCurrentUser = this.updateCurrentUser.bind(this);
-    }
+  }
 
   updateCurrentUser(user) {
     this.setState({
       currentUser: user
-      });
-    }
+    });
+  }
 
   render () {
     let view;

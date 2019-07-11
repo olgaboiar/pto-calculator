@@ -16,10 +16,12 @@ Style/Documentation:
 Metrics/BlockLength:
   Exclude:
     - spec/*.rb
+    - spec/**/*.rb
 
 Metrics/LineLength:
   Exclude:
     - spec/*.rb
+    - spec/**/*.rb
     - config/initializers/*.rb
     - config/environments/*.rb
     - Gemfile

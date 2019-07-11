@@ -6,6 +6,8 @@ class EmployeeController < ApplicationController
     employee.update(employee_params)
   end
 
+  private
+
   def employee_params
     params.permit(:user_id, :location)
   end

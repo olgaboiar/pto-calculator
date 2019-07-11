@@ -69,17 +69,20 @@ class EmploymentHistoryForm extends React.Component {
 
   handleSubmit = (e) => {
     e.preventDefault()
+    this.state.submitted = true;
     new HttpClient().post('http://localhost:3000/employee/history/update', {
       employee_id: this.state.employeeId,
       entries: this.state.entries,
       initial_ids: this.state.initialIds
     })
+    window.location.reload()
   };
 
   render() {
     return (
-      <form className="" onSubmit={this.handleSubmit} >
-        <h6>I'm THE FORM of employment history</h6>
+      <form onSubmit={this.handleSubmit} autoComplete="off" style={{margin: "3vh"}}>
+        <input autoComplete="false" name="hidden" type="text" style={{display: "none"}}></input>
+        <h6>Employment history</h6>
         {this.state.entries.map((entry, idx) => (
           <Row key={entry.position + Date.now()+Math.random()}>
             <Col m={4} s={12}>
@@ -91,13 +94,13 @@ class EmploymentHistoryForm extends React.Component {
             </Col>
             <Col m={3} s={5}>
               <InputDate 
-                date={entry.startDate}
+                date={entry.start_date}
                 onChange={date => this.handleEntryStartDateChange(idx, date)}
               />
             </Col>
             <Col m={3} s={5}>
               <InputDate 
-                date={entry.endtDate}
+                date={entry.end_date}
                 onChange={date => this.handleEntryEndDateChange(idx, date)}
               />
             </Col>

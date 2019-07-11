@@ -22,11 +22,10 @@ class InputDate extends React.Component {
   render() {
     return (
       <div className="form-group row center-align" data-testid="startDate">
-        <label>Select Your {this.props.label}: </label>
+        <label>Select date: </label>
         <DatePicker
           onChange={this.handleChange}
-          name="startDate"
-          value={this.state.date}
+          selected={Date.parse(this.state.date)}
         />
       </div>
     );

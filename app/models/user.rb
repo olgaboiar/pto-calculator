@@ -8,13 +8,11 @@ class User < ApplicationRecord
 
   after_create :create_employee_profile
 
+  validates :email, presence: true, email: true
+
   private
 
   def create_employee_profile
     Employee.create(user_id: id)
-  end
-
-  def create_employment_history
-    EmploymentHistory.create(user_id: id)
   end
 end

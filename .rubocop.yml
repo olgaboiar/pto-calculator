@@ -32,3 +32,7 @@ Metrics/LineLength:
 Style/NumericLiterals:
   Exclude:
     - db/schema.rb
+
+Style/RescueStandardError:
+  Exclude:
+    - app/validators/email_validator.rb

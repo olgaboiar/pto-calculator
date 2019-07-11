@@ -5,7 +5,7 @@ require 'spec_helper'
 RSpec.describe EmploymentHistoryController do
   before do
     @user = User.create(
-      email: 'test@example.com',
+      email: 'test@8thlight.com.com',
       password: 'password123',
       password_confirmation: 'password123'
     )

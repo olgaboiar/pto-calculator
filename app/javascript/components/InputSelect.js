@@ -1,5 +1,5 @@
-import React from 'react'
-import Select from 'react-select'
+import React from 'react';
+import Select from 'react-select';
 
 class InputSelect extends React.Component {
   constructor(props) {
@@ -9,7 +9,6 @@ class InputSelect extends React.Component {
       label: this.props.label,
       value: this.props.value
     };
-
     this.handleChange = this.handleChange.bind(this);
   }
 
@@ -24,7 +23,6 @@ class InputSelect extends React.Component {
     return (
       <div className="form-group row center-align" data-testid="position">
         <div className="">
-          <label>Select Your {this.state.label}: </label>
           <Select
             options={this.state.options}
             onChange={this.handleChange}

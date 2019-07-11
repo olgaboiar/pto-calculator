@@ -1,5 +1,4 @@
 import React from 'react';
-import Profile from './Profile';
 import Pto from './Pto';
 import { Row, Col, Button } from 'react-materialize';
 import EmploymentHistoryForm from './EmploymentHistoryForm';

@@ -1,12 +1,14 @@
 import React from 'react';
-import { Row, Col, Card, CardTitle } from 'react-materialize';
+import {
+  Row, Col, Card, CardTitle,
+  } from 'react-materialize';
 
 class GuestView extends React.Component {
   render () {
     return (
 			<Row>
-				<Col m={6} s={12} offset={'m3'}>
-					<Card
+        <Col m={6} s={12} offset={'m3'}>
+          <Card
 						className='center-align'
 						header={<CardTitle image={require('../../assets/images/sun.jpeg')}/>}
 						actions={[<a
@@ -17,14 +19,14 @@ class GuestView extends React.Component {
 							<Row>
 								<Col>
 									<img src={'https://8thlight.com/images/logos/logo-color-ddaacb3d.svg'} />
-								</Col>
-								  <h4>Welcome to PTO Calculator</h4>
-							</Row>
-							<h5 className='blue-text text-lighten-1'>The only tool that brings your vacation closer!</h5>
-						</div>
-					</Card>
-				</Col>
-			</Row>
+                </Col>
+                  <h4>Welcome to PTO Calculator</h4>
+              </Row>
+              <h5 className='blue-text text-lighten-1'>The only tool that brings your vacation closer!</h5>
+            </div>
+          </Card>
+        </Col>
+      </Row>
     );
   }
 }

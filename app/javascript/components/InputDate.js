@@ -7,18 +7,17 @@ class InputDate extends React.Component {
     super(props);
     this.state = {
       date: this.props.date,
-      label: this.props.label
-    },
+    };
     this.handleChange = this.handleChange.bind(this);
   }
-  
+
   handleChange(date) {
     this.setState({
-      date: date
+      date: date,
     });
     this.props.onChange(date);
   }
-  
+
   render() {
     return (
       <div className='form-group row center-align' data-testid='startDate'>

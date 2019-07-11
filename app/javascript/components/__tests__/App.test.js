@@ -6,17 +6,17 @@ const appState = {
   user: {},
   employee: {
     start_date: null,
-    position: null
+    position: null,
   },
-  employment: [{}]
+  employment: [{}],
 };
 
 describe('App.js', () => {
   it('renders correctly', () => {
     const wrapper = mount(
-      <App appState={appState} />, { attachToDocument: true }
+      <App appState={appState} />, { attachToDocument: true },
     );
-  
+
     expect(wrapper).toMatchSnapshot();
   });
 });

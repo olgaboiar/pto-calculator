@@ -12,20 +12,20 @@ describe('EmploymentHistoryForm.js', () => {
       start_date: moment('2019-01-01').toDate(),
     },
     pto: 12,
-    employment: [{}]
+    employment: [{}],
   };
 
   const message = 'test message';
 
-  it('renders correctly', () => {  
+  it('renders correctly', () => {
     const wrapper = render(
       <EmploymentHistoryForm user={user} message={message} />,
     );
-  
+
     expect(wrapper).toMatchSnapshot();
   });
 
-  it('contains InputSelect, InputDate, and Submit Button', () => {  
+  it('contains InputSelect, InputDate, and Submit Button', () => {
     const wrapper = mount(
       <EmploymentHistoryForm user={user} message={message}/>,
     );

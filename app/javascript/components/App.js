@@ -15,11 +15,11 @@ class App extends React.Component {
         user: this.props.appState.user,
         profile: this.props.appState.employee,
         pto: this.props.appState.pto,
-        employment: this.props.appState.employment
+        employment: this.props.appState.employment,
       };
     } else { null };
     this.state = {
-      currentUser: user
+      currentUser: user,
     };
     this.updateCurrentUser = this.updateCurrentUser.bind(this);
     }

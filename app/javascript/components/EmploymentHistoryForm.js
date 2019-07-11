@@ -18,7 +18,8 @@ class EmploymentHistoryForm extends React.Component {
       employeeId: this.props.user.profile.id,
       entries: this.props.user.employment,
       initialIds: initialIds,
-      positionOptions: positionOptions
+      positionOptions: positionOptions,
+      error: ''
     }
     this.handleEntryPositionChange = this.handleEntryPositionChange.bind(this); 
     this.handleEntryStartDateChange = this.handleEntryStartDateChange.bind(this); 
@@ -67,15 +68,32 @@ class EmploymentHistoryForm extends React.Component {
     });
   };
 
-  handleSubmit = (e) => {
+  checkDateValidation(entries) {
+    let validDates = true;
+    entries.map((entry) => {
+      let startDate = entry.start_date
+      let endDate = entry.end_date
+      if ((new Date(startDate) > new Date(endDate)) || (new Date(endDate) < new Date(startDate))) {
+        validDates = false
+      }
+    });
+    return validDates;
+  }
+
+  handleSubmit = async(e) => {
     e.preventDefault()
-    this.state.submitted = true;
-    new HttpClient().post('http://localhost:3000/employee/history/update', {
-      employee_id: this.state.employeeId,
-      entries: this.state.entries,
-      initial_ids: this.state.initialIds
-    })
-    window.location.reload()
+    let validForm;
+    validForm = await this.checkDateValidation(this.state.entries)
+    if (validForm == true) {
+      new HttpClient().post('http://localhost:3000/employee/history/update', {
+        employee_id: this.state.employeeId,
+        entries: this.state.entries,
+        initial_ids: this.state.initialIds
+      })
+      window.location.reload()
+    } else {
+      this.setState({ error: "ERROR! Make sure start date is earlier than end date" });
+    }
   };
 
   render() {
@@ -83,6 +101,7 @@ class EmploymentHistoryForm extends React.Component {
       <form onSubmit={this.handleSubmit} autoComplete="off" style={{margin: "3vh"}}>
         <input autoComplete="false" name="hidden" type="text" style={{display: "none"}}></input>
         <h6>Employment history</h6>
+        <div className="red-text"><h6>{this.state.error}</h6></div>
         {this.state.entries.map((entry, idx) => (
           <Row key={entry.position + Date.now()+Math.random()}>
             <Col m={4} s={12}>

@@ -11,7 +11,8 @@ describe("EmployeeView.js", () => {
     profile: {
       start_date: moment("2019-01-01").toDate(),
     },
-    pto: 12
+    pto: 12,
+    employment: [{}]
   }
 
   it("renders correctly", () => {  
@@ -27,21 +28,18 @@ describe("EmployeeView.js", () => {
       <EmployeeView currentUser={user} />,
     );
 
-    const button = wrapper.find('a');
-
-    expect(button).toHaveLength(1);
-    expect(button.html()).toContain("Logout");
+    expect(wrapper.html()).toContain("Logout");
   });
 
-it("contains Profile and Pto", () => {  
+  it("contains Profile and Pto", () => {  
     const wrapper = render(
       <EmployeeView currentUser={user} />,
     );
   
-    const profile = wrapper.find('[data-testid="profile"]');
+    const employment = wrapper.find('[data-testid="employment"]');
     const pto = wrapper.find('[data-testid="pto"]');
 
-    expect(profile).toHaveLength(1);
+    expect(employment).toHaveLength(1);
     expect(pto).toHaveLength(1);
   });
 })

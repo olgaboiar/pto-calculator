@@ -6,7 +6,7 @@ class InputDate extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      startDate: this.props.startDate,
+      date: this.props.date,
       label: this.props.label
     },
     this.handleChange = this.handleChange.bind(this);
@@ -14,7 +14,7 @@ class InputDate extends React.Component {
   
   handleChange(date) {
     this.setState({
-      startDate: date
+      date: date
     });
     this.props.onChange(date);
   }
@@ -22,11 +22,10 @@ class InputDate extends React.Component {
   render() {
     return (
       <div className="form-group row center-align" data-testid="startDate">
-        <label>Select Your {this.props.label}: </label>
+        <label>Select date: </label>
         <DatePicker
           onChange={this.handleChange}
-          name="startDate"
-          value={this.state.startDate}
+          selected={Date.parse(this.state.date)}
         />
       </div>
     );

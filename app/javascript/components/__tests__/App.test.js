@@ -7,7 +7,8 @@ const appState = {
   employee: {
     start_date: null,
     position: null
-  }  
+  },
+  employment: [{}]
 }
 
 describe("App.js", () => {
@@ -18,15 +19,4 @@ describe("App.js", () => {
   
     expect(wrapper).toMatchSnapshot();
   });
-
-//   it("contains greeting and description", () => {  
-//     const wrapper = mount(
-//       <App />,
-//     );
-  
-//     const description = wrapper.find('[data-testid="description"]');
-//     const greeting = wrapper.find('[data-testid="greeting"]');
-//     expect(description).toHaveLength(1);
-//     expect(greeting).toHaveLength(1);
-//   });
 })

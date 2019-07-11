@@ -1,36 +1,31 @@
 # frozen_string_literal: true
 
 class Calculator
-  def initialize(date_helper)
-    @date_helper = date_helper
+  def initialize(date_today)
+    @date_today = date_today
   end
 
-  def calculate(start_date, end_date, position, start_position)
-    if graduated?(position, start_position) && !@date_helper.same_month?(start_date, end_date)
-      return calculate_dif_rates(start_date, end_date, position, start_position)
-
+  def calculate(employment_history)
+    accrued_pto = 0
+    employment_history.each do |record|
+      start_date = record.start_date
+      end_date = (record.end_date.nil? ? @date_today : record.end_date)
+      accrued_pto += calculate_pto(start_date, end_date, record.position)
     end
-    calculate_single_rate(start_date, position)
+    accrued_pto
   end
 
   private
 
-  def graduated?(position, start_position)
-    start_position != position
+  def calculate_pto(start_date, end_date, position)
+    return 0 if start_date.nil? || position.nil?
+
+    months = count_working_month_amount(start_date, end_date)
+    (months * AccrualRate::RATES[position.to_sym]).round
   end
 
-  def calculate_single_rate(date, position)
-    return nil if date .nil?
-
-    months = @date_helper.get_working_month_amount(date)
-    (months * StaticData::RATES[position.to_sym]).round
-  end
-
-  def calculate_dif_rates(start_date, end_date, position, start_position)
-    first_month = @date_helper.get_working_month_amount(start_date, end_date)
-    pto1 = (first_month * StaticData::RATES[start_position.to_sym]).round
-    second_month = @date_helper.get_working_month_amount(end_date)
-    pto2 = (second_month * StaticData::RATES[position.to_sym]).round
-    pto1 + pto2
+  def count_working_month_amount(start_date, end_date)
+    # return 0 if start_date.nil?
+    end_date.month - start_date.month
   end
 end

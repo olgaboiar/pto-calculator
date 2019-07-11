@@ -13,4 +13,8 @@ class User < ApplicationRecord
   def create_employee_profile
     Employee.create(user_id: id)
   end
+
+  def create_employment_history
+    EmploymentHistory.create(user_id: id)
+  end
 end

@@ -17,27 +17,31 @@ class Pto extends React.Component {
   }
 
   render () {
+    let message;
     if (this.state.ptoHours) {
-      return (
-        <Row>
-				  <Col s={12}>
-					  <Card
-              className="center-align"
-              horizontal
-						  header={<CardTitle image={require('../../assets/images/flamingo.jpeg')}/>}
-					  >
-              <div>
-                <Row>
-                  <Col>
-                    <p>You have {this.state.ptoHours} PTO hours, which equals to {Math.round((this.state.ptoHours / 8)*2)/2} vacation days.</p>
-                  </Col>
-                </Row>
-              </div>
-					</Card>
-				</Col>
-			</Row>
-      )}
-    return null;
+      message = "You have " + this.state.ptoHours + " PTO hours, which equals to " + Math.round((this.state.ptoHours / 8)*2)/2 + " vacation days.";
+    } else {
+      message = "You don't have any accrued PTO. Check if your profile is up to date"
+    }
+    return (
+      <Row>
+        <Col s={12}>
+          <Card
+            className="center-align"
+            horizontal
+            header={<CardTitle image={require('../../assets/images/flamingo.jpeg')}/>}
+          >
+            <div>
+              <Row>
+                <Col>
+                  <h5>{message}</h5>
+                </Col>
+              </Row>
+            </div>
+        </Card>
+      </Col>
+    </Row>
+    )
   }
 }
 

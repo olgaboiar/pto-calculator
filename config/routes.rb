@@ -3,5 +3,6 @@
 Rails.application.routes.draw do
   devise_for :users
   root 'pto_calculator#index'
-  post 'update', to: 'employee#update'
+  post 'employee/profile/update', to: 'employee#profile_update'
+  post 'employee/history/update', to: 'employment_history#history_update'
 end

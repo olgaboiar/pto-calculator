@@ -13,7 +13,7 @@ describe("GuestView.js", () => {
 
   it("shows link to sign in", () => {  
     const wrapper = render(
-        <GuestView />,
+      <GuestView />,
     );
     
     const link = wrapper.find('a');

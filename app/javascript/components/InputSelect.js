@@ -22,7 +22,7 @@ class InputSelect extends React.Component {
   render() {
     return (
       <div className="form-group row center-align" data-testid="position">
-        <div className="">
+        <div>
           <Select
             options={this.state.options}
             onChange={this.handleChange}

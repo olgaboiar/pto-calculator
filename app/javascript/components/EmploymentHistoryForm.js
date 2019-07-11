@@ -64,7 +64,7 @@ class EmploymentHistoryForm extends React.Component {
 
   handleAddEntry = () => {
     this.setState({
-      entries: this.state.entries.concat([{ position: "" }])
+      entries: this.state.entries.concat([{ position: '' }])
     });
   };
 
@@ -92,7 +92,7 @@ class EmploymentHistoryForm extends React.Component {
       })
       window.location.reload()
     } else {
-      this.setState({ error: "ERROR! Make sure start date is earlier than end date" });
+      this.setState({ error: 'ERROR! Make sure start date is earlier than end date' });
     }
   };
 

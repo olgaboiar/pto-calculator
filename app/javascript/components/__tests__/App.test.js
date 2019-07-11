@@ -1,22 +1,22 @@
-import { mount } from "enzyme";
-import * as React from "react";
-import App from "../App"
+import { mount } from 'enzyme';
+import * as React from 'react';
+import App from '../App';
 
 const appState = {
   user: {},
   employee: {
     start_date: null,
-    position: null
+    position: null,
   },
-  employment: [{}]
-}
+  employment: [{}],
+};
 
-describe("App.js", () => {
-  it("renders correctly", () => {
+describe('App.js', () => {
+  it('renders correctly', () => {
     const wrapper = mount(
-      <App appState={appState} />, { attachToDocument: true }
+      <App appState={appState} />, { attachToDocument: true },
     );
-  
+
     expect(wrapper).toMatchSnapshot();
   });
-})
+});

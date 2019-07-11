@@ -7158,19 +7158,40 @@ initialize {
               "namespace": "http://www.w3.org/1999/xhtml",
               "next": Object {
                 "attribs": Object {
-                  "class": "waves-effect waves-light btn-large",
-                  "type": "submit",
+                  "class": "row center-align",
                 },
                 "children": Array [
                   Object {
-                    "data": "Save",
+                    "attribs": Object {
+                      "class": "waves-effect waves-light btn-large",
+                      "type": "submit",
+                    },
+                    "children": Array [
+                      Object {
+                        "data": "Save",
+                        "next": null,
+                        "parent": [Circular],
+                        "prev": null,
+                        "type": "text",
+                      },
+                    ],
+                    "name": "button",
+                    "namespace": "http://www.w3.org/1999/xhtml",
                     "next": null,
                     "parent": [Circular],
                     "prev": null,
-                    "type": "text",
+                    "type": "tag",
+                    "x-attribsNamespace": Object {
+                      "class": undefined,
+                      "type": undefined,
+                    },
+                    "x-attribsPrefix": Object {
+                      "class": undefined,
+                      "type": undefined,
+                    },
                   },
                 ],
-                "name": "button",
+                "name": "div",
                 "namespace": "http://www.w3.org/1999/xhtml",
                 "next": null,
                 "parent": [Circular],
@@ -7178,11 +7199,9 @@ initialize {
                 "type": "tag",
                 "x-attribsNamespace": Object {
                   "class": undefined,
-                  "type": undefined,
                 },
                 "x-attribsPrefix": Object {
                   "class": undefined,
-                  "type": undefined,
                 },
               },
               "parent": [Circular],
@@ -14367,19 +14386,40 @@ initialize {
             "namespace": "http://www.w3.org/1999/xhtml",
             "next": Object {
               "attribs": Object {
-                "class": "waves-effect waves-light btn-large",
-                "type": "submit",
+                "class": "row center-align",
               },
               "children": Array [
                 Object {
-                  "data": "Save",
+                  "attribs": Object {
+                    "class": "waves-effect waves-light btn-large",
+                    "type": "submit",
+                  },
+                  "children": Array [
+                    Object {
+                      "data": "Save",
+                      "next": null,
+                      "parent": [Circular],
+                      "prev": null,
+                      "type": "text",
+                    },
+                  ],
+                  "name": "button",
+                  "namespace": "http://www.w3.org/1999/xhtml",
                   "next": null,
                   "parent": [Circular],
                   "prev": null,
-                  "type": "text",
+                  "type": "tag",
+                  "x-attribsNamespace": Object {
+                    "class": undefined,
+                    "type": undefined,
+                  },
+                  "x-attribsPrefix": Object {
+                    "class": undefined,
+                    "type": undefined,
+                  },
                 },
               ],
-              "name": "button",
+              "name": "div",
               "namespace": "http://www.w3.org/1999/xhtml",
               "next": null,
               "parent": [Circular],
@@ -14387,11 +14427,9 @@ initialize {
               "type": "tag",
               "x-attribsNamespace": Object {
                 "class": undefined,
-                "type": undefined,
               },
               "x-attribsPrefix": Object {
                 "class": undefined,
-                "type": undefined,
               },
             },
             "parent": [Circular],
@@ -21573,19 +21611,40 @@ initialize {
           "namespace": "http://www.w3.org/1999/xhtml",
           "next": Object {
             "attribs": Object {
-              "class": "waves-effect waves-light btn-large",
-              "type": "submit",
+              "class": "row center-align",
             },
             "children": Array [
               Object {
-                "data": "Save",
+                "attribs": Object {
+                  "class": "waves-effect waves-light btn-large",
+                  "type": "submit",
+                },
+                "children": Array [
+                  Object {
+                    "data": "Save",
+                    "next": null,
+                    "parent": [Circular],
+                    "prev": null,
+                    "type": "text",
+                  },
+                ],
+                "name": "button",
+                "namespace": "http://www.w3.org/1999/xhtml",
                 "next": null,
                 "parent": [Circular],
                 "prev": null,
-                "type": "text",
+                "type": "tag",
+                "x-attribsNamespace": Object {
+                  "class": undefined,
+                  "type": undefined,
+                },
+                "x-attribsPrefix": Object {
+                  "class": undefined,
+                  "type": undefined,
+                },
               },
             ],
-            "name": "button",
+            "name": "div",
             "namespace": "http://www.w3.org/1999/xhtml",
             "next": null,
             "parent": [Circular],
@@ -21593,11 +21652,9 @@ initialize {
             "type": "tag",
             "x-attribsNamespace": Object {
               "class": undefined,
-              "type": undefined,
             },
             "x-attribsPrefix": Object {
               "class": undefined,
-              "type": undefined,
             },
           },
           "parent": [Circular],
@@ -21720,19 +21777,40 @@ initialize {
         "namespace": "http://www.w3.org/1999/xhtml",
         "next": Object {
           "attribs": Object {
-            "class": "waves-effect waves-light btn-large",
-            "type": "submit",
+            "class": "row center-align",
           },
           "children": Array [
             Object {
-              "data": "Save",
+              "attribs": Object {
+                "class": "waves-effect waves-light btn-large",
+                "type": "submit",
+              },
+              "children": Array [
+                Object {
+                  "data": "Save",
+                  "next": null,
+                  "parent": [Circular],
+                  "prev": null,
+                  "type": "text",
+                },
+              ],
+              "name": "button",
+              "namespace": "http://www.w3.org/1999/xhtml",
               "next": null,
               "parent": [Circular],
               "prev": null,
-              "type": "text",
+              "type": "tag",
+              "x-attribsNamespace": Object {
+                "class": undefined,
+                "type": undefined,
+              },
+              "x-attribsPrefix": Object {
+                "class": undefined,
+                "type": undefined,
+              },
             },
           ],
-          "name": "button",
+          "name": "div",
           "namespace": "http://www.w3.org/1999/xhtml",
           "next": null,
           "parent": [Circular],
@@ -21740,11 +21818,9 @@ initialize {
           "type": "tag",
           "x-attribsNamespace": Object {
             "class": undefined,
-            "type": undefined,
           },
           "x-attribsPrefix": Object {
             "class": undefined,
-            "type": undefined,
           },
         },
         "parent": [Circular],
@@ -28886,19 +28962,40 @@ initialize {
       },
       Object {
         "attribs": Object {
-          "class": "waves-effect waves-light btn-large",
-          "type": "submit",
+          "class": "row center-align",
         },
         "children": Array [
           Object {
-            "data": "Save",
+            "attribs": Object {
+              "class": "waves-effect waves-light btn-large",
+              "type": "submit",
+            },
+            "children": Array [
+              Object {
+                "data": "Save",
+                "next": null,
+                "parent": [Circular],
+                "prev": null,
+                "type": "text",
+              },
+            ],
+            "name": "button",
+            "namespace": "http://www.w3.org/1999/xhtml",
             "next": null,
             "parent": [Circular],
             "prev": null,
-            "type": "text",
+            "type": "tag",
+            "x-attribsNamespace": Object {
+              "class": undefined,
+              "type": undefined,
+            },
+            "x-attribsPrefix": Object {
+              "class": undefined,
+              "type": undefined,
+            },
           },
         ],
-        "name": "button",
+        "name": "div",
         "namespace": "http://www.w3.org/1999/xhtml",
         "next": null,
         "parent": [Circular],
@@ -36096,11 +36193,9 @@ initialize {
         "type": "tag",
         "x-attribsNamespace": Object {
           "class": undefined,
-          "type": undefined,
         },
         "x-attribsPrefix": Object {
           "class": undefined,
-          "type": undefined,
         },
       },
     ],

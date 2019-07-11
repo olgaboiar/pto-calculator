@@ -122,7 +122,10 @@ class EmploymentHistoryForm extends React.Component {
               onClick={this.handleAddEntry} >Add another entry</Button>
           </Col>
         </Row>
+        <Row className="center-align">
         <Button waves="light" large type="submit" >Save</Button>
+        </Row>
+        
       </form>
     )
   }

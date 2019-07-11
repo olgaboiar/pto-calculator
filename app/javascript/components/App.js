@@ -7,7 +7,7 @@ import EmployeeView from './EmployeeView';
 // axios.defaults.headers.common['X-CSRF-TOKEN'] = csrfToken;
 
 class App extends React.Component {
-  constructor(props){
+  constructor(props) {
     super(props);
     let user;
     if (this.props.appState.user) {
@@ -17,7 +17,7 @@ class App extends React.Component {
         pto: this.props.appState.pto,
         employment: this.props.appState.employment,
       };
-    } else { null };
+    } else { null; }
     this.state = {
       currentUser: user,
     };
@@ -26,14 +26,14 @@ class App extends React.Component {
 
   updateCurrentUser(user) {
     this.setState({
-      currentUser: user
+      currentUser: user,
     });
   }
 
-  render () {
+  render() {
     let view;
     if (this.state.currentUser) {
-      view = <EmployeeView currentUser={this.state.currentUser}/>;
+      view = <EmployeeView currentUser={this.state.currentUser} />;
     } else {
       view = <GuestView />;
     }

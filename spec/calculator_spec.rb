@@ -42,4 +42,11 @@ describe Calculator do
     test_calculate 4, [EmploymentHistory.new(employee_id: 1, position: 'apprentice', start_date: Date.new(2019, 6, 30), end_date: Date.new(2019, 7, 1)), EmploymentHistory.new(employee_id: 1, position: 'crafter', start_date: Date.new(2019, 7, 1))]
     test_calculate 0, [EmploymentHistory.new(employee_id: 1, position: 'apprentice', start_date: Date.new(2019, 7, 1), end_date: Date.new(2019, 7, 2)), EmploymentHistory.new(employee_id: 1, position: 'crafter', start_date: Date.new(2019, 7, 2))]
   end
+
+  describe '#calculate for an employee who started more than a year ago' do
+    test_calculate 72, [EmploymentHistory.new(employee_id: 1, position: 'apprentice', start_date: Date.new(2018, 1, 1))]
+    test_calculate 239, [EmploymentHistory.new(employee_id: 1, position: 'crafter', start_date: Date.new(2018, 1, 1))]
+    test_calculate 119, [EmploymentHistory.new(employee_id: 1, position: 'apprentice', start_date: Date.new(2018, 1, 1), end_date: Date.new(2019, 2, 15)), EmploymentHistory.new(employee_id: 1, position: 'crafter', start_date: Date.new(2019, 2, 15))]
+    test_calculate 230, [EmploymentHistory.new(employee_id: 1, position: 'apprentice', start_date: Date.new(2018, 1, 31), end_date: Date.new(2018, 2, 15)), EmploymentHistory.new(employee_id: 1, position: 'crafter', start_date: Date.new(2018, 2, 15))]
+  end
 end

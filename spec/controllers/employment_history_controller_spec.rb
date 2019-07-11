@@ -27,7 +27,7 @@ RSpec.describe EmploymentHistoryController do
     context 'with valid attributes' do
       it 'creates an instance of EmploymentHistoryManager' do
         post :history_update, params: @update_params
-        expect(assigns(:manager)).to be
+        expect(assigns(:manager)).to be_present
       end
 
       it 'responses with 204 status' do

@@ -21,7 +21,7 @@ RSpec.describe EmploymentHistory, type: :model do
     expect(employee).to_not be_valid
   end
 
-  it 'is not valid without an user_id' do
+  it 'belongs to employee' do
     assc = described_class.reflect_on_association(:employee)
     expect(assc.macro).to eq :belongs_to
   end

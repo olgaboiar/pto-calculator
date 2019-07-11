@@ -1,6 +1,6 @@
-import { mount } from "enzyme";
-import * as React from "react";
-import App from "../App"
+import { mount } from 'enzyme';
+import * as React from 'react';
+import App from '../App'
 
 const appState = {
   user: {},
@@ -11,8 +11,8 @@ const appState = {
   employment: [{}]
 }
 
-describe("App.js", () => {
-  it("renders correctly", () => {
+describe('App.js', () => {
+  it('renders correctly', () => {
     const wrapper = mount(
       <App appState={appState} />, { attachToDocument: true }
     );

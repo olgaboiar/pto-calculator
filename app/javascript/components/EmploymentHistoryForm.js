@@ -64,7 +64,7 @@ class EmploymentHistoryForm extends React.Component {
 
   handleAddEntry = () => {
     this.setState({
-      entries: this.state.entries.concat([{ position: "" }])
+      entries: this.state.entries.concat([{ position: '' }])
     });
   };
 
@@ -92,16 +92,16 @@ class EmploymentHistoryForm extends React.Component {
       })
       window.location.reload()
     } else {
-      this.setState({ error: "ERROR! Make sure start date is earlier than end date" });
+      this.setState({ error: 'ERROR! Make sure start date is earlier than end date' });
     }
   };
 
   render() {
     return (
-      <form onSubmit={this.handleSubmit} autoComplete="off" style={{margin: "3vh"}}>
-        <input autoComplete="false" name="hidden" type="text" style={{display: "none"}}></input>
+      <form onSubmit={this.handleSubmit} autoComplete='off' style={{margin: '3vh'}}>
+        <input autoComplete='false' name='hidden' type='text' style={{display: 'none'}}></input>
         <h6>Employment history</h6>
-        <div className="red-text"><h6>{this.state.error}</h6></div>
+        <div className='red-text'><h6>{this.state.error}</h6></div>
         {this.state.entries.map((entry, idx) => (
           <Row key={entry.position + Date.now()+Math.random()}>
             <Col m={4} s={12}>
@@ -125,9 +125,9 @@ class EmploymentHistoryForm extends React.Component {
             </Col>
             <Col m={2} s={2}>  
               <Button
-                node="a"
-                waves="light"
-                icon="cancel"
+                node='a'
+                waves='light'
+                icon='cancel'
                 floating
                 onClick={this.handleRemoveEntry(idx)}></Button>
             </Col>
@@ -136,13 +136,13 @@ class EmploymentHistoryForm extends React.Component {
         <Row>
           <Col>
             <Button
-              node="a"
-              waves="light"
+              node='a'
+              waves='light'
               onClick={this.handleAddEntry} >Add another entry</Button>
           </Col>
         </Row>
-        <Row className="center-align">
-          <Button waves="light" large type="submit" >Save</Button>
+        <Row className='center-align'>
+          <Button waves='light' large type='submit' >Save</Button>
         </Row>
       </form>
     )

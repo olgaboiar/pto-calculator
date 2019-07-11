@@ -19,7 +19,7 @@ class Pto extends React.Component {
   render () {
     let message;
     if (this.state.ptoHours) {
-      message = "You have " + this.state.ptoHours + " PTO hours, which equals to " + Math.round((this.state.ptoHours / 8)*2)/2 + " vacation days.";
+      message = 'You have ' + this.state.ptoHours + ' PTO hours, which equals to ' + Math.round((this.state.ptoHours / 8)*2)/2 + ' vacation days.';
     } else {
       message = "You don't have any accrued PTO. Check if your profile is up to date"
     }
@@ -27,7 +27,7 @@ class Pto extends React.Component {
       <Row>
         <Col s={12}>
           <Card
-            className="center-align"
+            className='center-align'
             horizontal
             header={<CardTitle image={require('../../assets/images/flamingo.jpeg')}/>}
           >

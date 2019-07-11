@@ -1,15 +1,15 @@
-import { shallow, mount } from "enzyme";
-import * as React from "react";
-import InputSelect from "../InputSelect"
+import { shallow, mount } from 'enzyme';
+import * as React from 'react';
+import InputSelect from '../InputSelect'
 
-describe("InputSelect.js", () => {
+describe('InputSelect.js', () => {
   const testOptions = [
     { value: 'chocolate', label: 'Chocolate' },
     { value: 'strawberry', label: 'Strawberry' },
     { value: 'vanilla', label: 'Vanilla' }
   ]
 
-  it("renders correctly", () => {
+  it('renders correctly', () => {
     const wrapper = shallow(
       <InputSelect options={testOptions} />,
     );
@@ -17,7 +17,7 @@ describe("InputSelect.js", () => {
     expect(wrapper).toMatchSnapshot();
   });
 
-  it("displays a default value", () => {
+  it('displays a default value', () => {
     const wrapper = mount(
       <InputSelect 
         options={testOptions}

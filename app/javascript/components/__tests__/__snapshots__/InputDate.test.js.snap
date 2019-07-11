@@ -12,7 +12,7 @@ initialize {
         "attribs": Object {},
         "children": Array [
           Object {
-            "data": "Select Your : ",
+            "data": "Select date: ",
             "next": null,
             "parent": [Circular],
             "prev": null,
@@ -34,7 +34,6 @@ initialize {
                 Object {
                   "attribs": Object {
                     "class": "",
-                    "name": "startDate",
                     "type": "text",
                     "value": "",
                   },
@@ -47,13 +46,11 @@ initialize {
                   "type": "tag",
                   "x-attribsNamespace": Object {
                     "class": undefined,
-                    "name": undefined,
                     "type": undefined,
                     "value": undefined,
                   },
                   "x-attribsPrefix": Object {
                     "class": undefined,
-                    "name": undefined,
                     "type": undefined,
                     "value": undefined,
                   },
@@ -105,7 +102,6 @@ initialize {
               Object {
                 "attribs": Object {
                   "class": "",
-                  "name": "startDate",
                   "type": "text",
                   "value": "",
                 },
@@ -118,13 +114,11 @@ initialize {
                 "type": "tag",
                 "x-attribsNamespace": Object {
                   "class": undefined,
-                  "name": undefined,
                   "type": undefined,
                   "value": undefined,
                 },
                 "x-attribsPrefix": Object {
                   "class": undefined,
-                  "name": undefined,
                   "type": undefined,
                   "value": undefined,
                 },
@@ -152,7 +146,7 @@ initialize {
           "attribs": Object {},
           "children": Array [
             Object {
-              "data": "Select Your : ",
+              "data": "Select date: ",
               "next": null,
               "parent": [Circular],
               "prev": null,

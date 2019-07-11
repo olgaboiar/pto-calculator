@@ -19,6 +19,7 @@ class Calculator
 
   def calculate_pto(start_date, end_date, position)
     return 0 if start_date.nil? || position.nil?
+
     months = count_working_month_amount(start_date, end_date)
     (months * AccrualRate::RATES[position.to_sym]).round
   end

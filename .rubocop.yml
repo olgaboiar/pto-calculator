@@ -17,12 +17,18 @@ Metrics/BlockLength:
   Exclude:
     - spec/*.rb
     - spec/**/*.rb
+    - db/schema.rb
 
 Metrics/LineLength:
   Exclude:
+    - db/schema.rb
     - spec/*.rb
     - spec/**/*.rb
     - config/initializers/*.rb
     - config/environments/*.rb
     - Gemfile
     - Rakefile
+
+Style/NumericLiterals:
+  Exclude:
+    - db/schema.rb

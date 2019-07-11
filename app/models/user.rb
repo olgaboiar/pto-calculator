@@ -6,7 +6,7 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
 
-  after_create :create_employee_profile, :create_employment_history
+  after_create :create_employee_profile
 
   private
 

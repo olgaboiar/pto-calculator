@@ -1,13 +1,13 @@
 import { shallow, mount } from 'enzyme';
 import * as React from 'react';
-import InputSelect from '../InputSelect'
+import InputSelect from '../InputSelect';
 
 describe('InputSelect.js', () => {
   const testOptions = [
     { value: 'chocolate', label: 'Chocolate' },
     { value: 'strawberry', label: 'Strawberry' },
     { value: 'vanilla', label: 'Vanilla' }
-  ]
+  ];
 
   it('renders correctly', () => {
     const wrapper = shallow(
@@ -26,4 +26,4 @@ describe('InputSelect.js', () => {
     
     expect(wrapper.html()).toContain('Strawberry');
   });
-})
+});

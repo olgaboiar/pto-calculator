@@ -13,7 +13,7 @@ describe('EmploymentHistoryForm.js', () => {
     },
     pto: 12,
     employment: [{}]
-  }
+  };
 
   const message = 'test message';
 
@@ -38,4 +38,4 @@ describe('EmploymentHistoryForm.js', () => {
     expect(inputDate).toHaveLength(2);
     expect(button).toHaveLength(1);
   });
-})
+});

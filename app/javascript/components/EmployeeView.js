@@ -8,7 +8,7 @@ class EmployeeView extends React.Component {
     super(props);
     this.state = {
       user: this.props.currentUser
-    }
+    };
   }
 
   render () {
@@ -28,8 +28,8 @@ class EmployeeView extends React.Component {
           </Col>
         </Row>
       </div>
-    )
+    );
   }
 }
 
-export default EmployeeView
+export default EmployeeView;

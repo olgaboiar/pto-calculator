@@ -1,6 +1,6 @@
 import { mount } from 'enzyme';
 import * as React from 'react';
-import App from '../App'
+import App from '../App';
 
 const appState = {
   user: {},
@@ -9,7 +9,7 @@ const appState = {
     position: null
   },
   employment: [{}]
-}
+};
 
 describe('App.js', () => {
   it('renders correctly', () => {
@@ -19,4 +19,4 @@ describe('App.js', () => {
   
     expect(wrapper).toMatchSnapshot();
   });
-})
+});

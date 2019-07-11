@@ -25,8 +25,8 @@ class GuestView extends React.Component {
 					</Card>
 				</Col>
 			</Row>
-    )
+    );
   }
 }
 
-export default GuestView
+export default GuestView;

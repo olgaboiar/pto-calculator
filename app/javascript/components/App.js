@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import axios from 'axios';
 import GuestView from './GuestView';
 import EmployeeView from './EmployeeView';
@@ -16,33 +16,33 @@ class App extends React.Component {
         profile: this.props.appState.employee,
         pto: this.props.appState.pto,
         employment: this.props.appState.employment
-      }
-    } else { null }
+      };
+    } else { null };
     this.state = {
       currentUser: user
-    }
+    };
     this.updateCurrentUser = this.updateCurrentUser.bind(this);
     }
 
   updateCurrentUser(user) {
     this.setState({
       currentUser: user
-      })
+      });
     }
 
   render () {
     let view;
     if (this.state.currentUser) {
-      view = <EmployeeView currentUser={this.state.currentUser}/>
+      view = <EmployeeView currentUser={this.state.currentUser}/>;
     } else {
-      view = <GuestView />
+      view = <GuestView />;
     }
     return (
       <div>
         {view}
       </div>
-    )
+    );
   }
 }
 
-export default App
+export default App;

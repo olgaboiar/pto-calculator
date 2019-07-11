@@ -7,5 +7,5 @@ document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(
     <App appState={appState}/>,
     document.body.appendChild(document.createElement('div')),
-  )
-})
+  );
+});

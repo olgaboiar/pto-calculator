@@ -20,4 +20,4 @@ describe('GuestView.js', () => {
     expect(link).toHaveLength(1);
     expect(link.html()).toEqual('Please log in to be able to see your PTO');
   });
-})
+});

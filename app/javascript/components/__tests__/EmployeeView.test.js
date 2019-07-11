@@ -13,7 +13,7 @@ describe('EmployeeView.js', () => {
     },
     pto: 12,
     employment: [{}]
-  }
+  };
 
   it('renders correctly', () => {  
     const wrapper = render(
@@ -42,4 +42,4 @@ describe('EmployeeView.js', () => {
     expect(employment).toHaveLength(1);
     expect(pto).toHaveLength(1);
   });
-})
+});

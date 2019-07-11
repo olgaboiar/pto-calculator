@@ -4,7 +4,7 @@ require 'date'
 require 'rails_helper'
 require 'spec_helper'
 require_relative '../app/lib/calculator'
-require_relative '../app/lib/static_data'
+require_relative '../app/lib/accrual_rate'
 
 describe Calculator do
   before do

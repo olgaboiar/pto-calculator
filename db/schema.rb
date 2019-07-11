@@ -27,7 +27,7 @@ ActiveRecord::Schema.define(version: 2019_07_09_174827) do
   end
 
   create_table "employment_histories", force: :cascade do |t|
-    t.integer "user_id"
+    t.integer "employee_id"
     t.string "position"
     t.date "start_date"
     t.date "end_date"

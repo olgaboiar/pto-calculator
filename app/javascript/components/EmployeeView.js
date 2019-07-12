@@ -16,7 +16,15 @@ class EmployeeView extends React.Component {
       <div className="container">
         <Row>
           <Col m={1} s={12} offset="m11">
-            <Button waves="light" node="a" href="/users/sign_out" data-method="delete" data-testid="logout-link">Logout</Button>
+            <Button
+              waves="light"
+              node="a"
+              href="/users/sign_out"
+              data-method="delete"
+              data-testid="logout-link"
+            >
+              Logout
+            </Button>
           </Col>
         </Row>
         <Row>

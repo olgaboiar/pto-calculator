@@ -7112,6 +7112,7 @@ initialize {
                       Object {
                         "attribs": Object {
                           "class": "btn waves-effect waves-light",
+                          "tyle": "[object Object]",
                         },
                         "children": Array [
                           Object {
@@ -7130,9 +7131,11 @@ initialize {
                         "type": "tag",
                         "x-attribsNamespace": Object {
                           "class": undefined,
+                          "tyle": undefined,
                         },
                         "x-attribsPrefix": Object {
                           "class": undefined,
+                          "tyle": undefined,
                         },
                       },
                     ],
@@ -14349,6 +14352,7 @@ initialize {
                     Object {
                       "attribs": Object {
                         "class": "btn waves-effect waves-light",
+                        "tyle": "[object Object]",
                       },
                       "children": Array [
                         Object {
@@ -14367,9 +14371,11 @@ initialize {
                       "type": "tag",
                       "x-attribsNamespace": Object {
                         "class": undefined,
+                        "tyle": undefined,
                       },
                       "x-attribsPrefix": Object {
                         "class": undefined,
+                        "tyle": undefined,
                       },
                     },
                   ],
@@ -21583,6 +21589,7 @@ initialize {
                   Object {
                     "attribs": Object {
                       "class": "btn waves-effect waves-light",
+                      "tyle": "[object Object]",
                     },
                     "children": Array [
                       Object {
@@ -21601,9 +21608,11 @@ initialize {
                     "type": "tag",
                     "x-attribsNamespace": Object {
                       "class": undefined,
+                      "tyle": undefined,
                     },
                     "x-attribsPrefix": Object {
                       "class": undefined,
+                      "tyle": undefined,
                     },
                   },
                 ],
@@ -28810,6 +28819,7 @@ initialize {
                 Object {
                   "attribs": Object {
                     "class": "btn waves-effect waves-light",
+                    "tyle": "[object Object]",
                   },
                   "children": Array [
                     Object {
@@ -28828,9 +28838,11 @@ initialize {
                   "type": "tag",
                   "x-attribsNamespace": Object {
                     "class": undefined,
+                    "tyle": undefined,
                   },
                   "x-attribsPrefix": Object {
                     "class": undefined,
+                    "tyle": undefined,
                   },
                 },
               ],
@@ -29009,6 +29021,7 @@ initialize {
               Object {
                 "attribs": Object {
                   "class": "btn waves-effect waves-light",
+                  "tyle": "[object Object]",
                 },
                 "children": Array [
                   Object {
@@ -29027,9 +29040,11 @@ initialize {
                 "type": "tag",
                 "x-attribsNamespace": Object {
                   "class": undefined,
+                  "tyle": undefined,
                 },
                 "x-attribsPrefix": Object {
                   "class": undefined,
+                  "tyle": undefined,
                 },
               },
             ],
@@ -36298,6 +36313,7 @@ initialize {
                 Object {
                   "attribs": Object {
                     "class": "btn waves-effect waves-light",
+                    "tyle": "[object Object]",
                   },
                   "children": Array [
                     Object {
@@ -36316,9 +36332,11 @@ initialize {
                   "type": "tag",
                   "x-attribsNamespace": Object {
                     "class": undefined,
+                    "tyle": undefined,
                   },
                   "x-attribsPrefix": Object {
                     "class": undefined,
+                    "tyle": undefined,
                   },
                 },
               ],

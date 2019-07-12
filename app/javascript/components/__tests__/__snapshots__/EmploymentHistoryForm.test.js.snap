@@ -7160,6 +7160,7 @@ initialize {
                     Object {
                       "attribs": Object {
                         "class": "waves-effect waves-light btn-large",
+                        "style": "z-index:0",
                         "type": "submit",
                       },
                       "children": Array [
@@ -7179,10 +7180,12 @@ initialize {
                       "type": "tag",
                       "x-attribsNamespace": Object {
                         "class": undefined,
+                        "style": undefined,
                         "type": undefined,
                       },
                       "x-attribsPrefix": Object {
                         "class": undefined,
+                        "style": undefined,
                         "type": undefined,
                       },
                     },
@@ -14394,6 +14397,7 @@ initialize {
                   Object {
                     "attribs": Object {
                       "class": "waves-effect waves-light btn-large",
+                      "style": "z-index:0",
                       "type": "submit",
                     },
                     "children": Array [
@@ -14413,10 +14417,12 @@ initialize {
                     "type": "tag",
                     "x-attribsNamespace": Object {
                       "class": undefined,
+                      "style": undefined,
                       "type": undefined,
                     },
                     "x-attribsPrefix": Object {
                       "class": undefined,
+                      "style": undefined,
                       "type": undefined,
                     },
                   },
@@ -21625,6 +21631,7 @@ initialize {
                 Object {
                   "attribs": Object {
                     "class": "waves-effect waves-light btn-large",
+                    "style": "z-index:0",
                     "type": "submit",
                   },
                   "children": Array [
@@ -21644,10 +21651,12 @@ initialize {
                   "type": "tag",
                   "x-attribsNamespace": Object {
                     "class": undefined,
+                    "style": undefined,
                     "type": undefined,
                   },
                   "x-attribsPrefix": Object {
                     "class": undefined,
+                    "style": undefined,
                     "type": undefined,
                   },
                 },
@@ -28849,6 +28858,7 @@ initialize {
               Object {
                 "attribs": Object {
                   "class": "waves-effect waves-light btn-large",
+                  "style": "z-index:0",
                   "type": "submit",
                 },
                 "children": Array [
@@ -28868,10 +28878,12 @@ initialize {
                 "type": "tag",
                 "x-attribsNamespace": Object {
                   "class": undefined,
+                  "style": undefined,
                   "type": undefined,
                 },
                 "x-attribsPrefix": Object {
                   "class": undefined,
+                  "style": undefined,
                   "type": undefined,
                 },
               },
@@ -29045,6 +29057,7 @@ initialize {
             Object {
               "attribs": Object {
                 "class": "waves-effect waves-light btn-large",
+                "style": "z-index:0",
                 "type": "submit",
               },
               "children": Array [
@@ -29064,10 +29077,12 @@ initialize {
               "type": "tag",
               "x-attribsNamespace": Object {
                 "class": undefined,
+                "style": undefined,
                 "type": undefined,
               },
               "x-attribsPrefix": Object {
                 "class": undefined,
+                "style": undefined,
                 "type": undefined,
               },
             },
@@ -36236,6 +36251,7 @@ initialize {
           Object {
             "attribs": Object {
               "class": "waves-effect waves-light btn-large",
+              "style": "z-index:0",
               "type": "submit",
             },
             "children": Array [
@@ -36255,10 +36271,12 @@ initialize {
             "type": "tag",
             "x-attribsNamespace": Object {
               "class": undefined,
+              "style": undefined,
               "type": undefined,
             },
             "x-attribsPrefix": Object {
               "class": undefined,
+              "style": undefined,
               "type": undefined,
             },
           },

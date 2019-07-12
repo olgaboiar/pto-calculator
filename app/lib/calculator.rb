@@ -25,7 +25,6 @@ class Calculator
   end
 
   def count_working_month_amount(start_date, end_date)
-    # return 0 if start_date.nil?
-    end_date.month - start_date.month
+    (end_date.year * 12 + end_date.month) - (start_date.year * 12 + start_date.month)
   end
 end

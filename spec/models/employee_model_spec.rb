@@ -20,7 +20,7 @@ RSpec.describe Employee, type: :model do
     expect(employee).to_not be_valid
   end
 
-  it 'is not valid without an user_id' do
+  it 'belongs to user' do
     assc = described_class.reflect_on_association(:user)
     expect(assc.macro).to eq :belongs_to
   end

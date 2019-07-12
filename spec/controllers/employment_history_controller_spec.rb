@@ -11,10 +11,11 @@ RSpec.describe EmploymentHistoryController do
     )
     sign_in(@user)
     employee = Employee.find_by(user_id: @user.id)
+    record = EmploymentHistory.create(employee_id: employee.id)
     @update_params = {
       employee_id: employee.id,
       entries: [{
-        id: @user.id,
+        id: record.id,
         employee_id: employee.id,
         position: 'apprentice',
         start_date: '2019-07-11'

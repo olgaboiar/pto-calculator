@@ -28,8 +28,7 @@ class Pto extends React.Component {
         <Col s={12}>
           <Card
             className="center-align"
-            horizontal
-            header={<CardTitle image={require('../../assets/images/flamingo.jpeg')}/>}
+            header={<CardTitle image={require('../../assets/images/sand.png')}/>}
           >
             <div>
               <Row>

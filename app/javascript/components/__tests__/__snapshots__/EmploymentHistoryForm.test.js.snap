@@ -58,7 +58,7 @@ initialize {
               "children": Array [
                 Object {
                   "attribs": Object {
-                    "class": "col s12 m4",
+                    "class": "col s12 m3",
                   },
                   "children": Array [
                     Object {
@@ -1337,7 +1337,7 @@ initialize {
                   "namespace": "http://www.w3.org/1999/xhtml",
                   "next": Object {
                     "attribs": Object {
-                      "class": "col s5 m3",
+                      "class": "col s5 m3 offset-m1",
                     },
                     "children": Array [
                       Object {
@@ -1529,7 +1529,7 @@ initialize {
                     "namespace": "http://www.w3.org/1999/xhtml",
                     "next": Object {
                       "attribs": Object {
-                        "class": "col s5 m3",
+                        "class": "col s5 m3 offset-m1",
                       },
                       "children": Array [
                         Object {
@@ -1721,7 +1721,7 @@ initialize {
                       "namespace": "http://www.w3.org/1999/xhtml",
                       "next": Object {
                         "attribs": Object {
-                          "class": "col s2 m2",
+                          "class": "col s2 m1",
                         },
                         "children": Array [
                           Object {
@@ -1818,7 +1818,7 @@ initialize {
                 },
                 Object {
                   "attribs": Object {
-                    "class": "col s5 m3",
+                    "class": "col s5 m3 offset-m1",
                   },
                   "children": Array [
                     Object {
@@ -2010,7 +2010,7 @@ initialize {
                   "namespace": "http://www.w3.org/1999/xhtml",
                   "next": Object {
                     "attribs": Object {
-                      "class": "col s5 m3",
+                      "class": "col s5 m3 offset-m1",
                     },
                     "children": Array [
                       Object {
@@ -2202,7 +2202,7 @@ initialize {
                     "namespace": "http://www.w3.org/1999/xhtml",
                     "next": Object {
                       "attribs": Object {
-                        "class": "col s2 m2",
+                        "class": "col s2 m1",
                       },
                       "children": Array [
                         Object {
@@ -2280,7 +2280,7 @@ initialize {
                   "parent": [Circular],
                   "prev": Object {
                     "attribs": Object {
-                      "class": "col s12 m4",
+                      "class": "col s12 m3",
                     },
                     "children": Array [
                       Object {
@@ -3578,7 +3578,7 @@ initialize {
                 },
                 Object {
                   "attribs": Object {
-                    "class": "col s5 m3",
+                    "class": "col s5 m3 offset-m1",
                   },
                   "children": Array [
                     Object {
@@ -3770,7 +3770,7 @@ initialize {
                   "namespace": "http://www.w3.org/1999/xhtml",
                   "next": Object {
                     "attribs": Object {
-                      "class": "col s2 m2",
+                      "class": "col s2 m1",
                     },
                     "children": Array [
                       Object {
@@ -3838,7 +3838,7 @@ initialize {
                   "parent": [Circular],
                   "prev": Object {
                     "attribs": Object {
-                      "class": "col s5 m3",
+                      "class": "col s5 m3 offset-m1",
                     },
                     "children": Array [
                       Object {
@@ -4032,7 +4032,7 @@ initialize {
                     "parent": [Circular],
                     "prev": Object {
                       "attribs": Object {
-                        "class": "col s12 m4",
+                        "class": "col s12 m3",
                       },
                       "children": Array [
                         Object {
@@ -5338,7 +5338,7 @@ initialize {
                 },
                 Object {
                   "attribs": Object {
-                    "class": "col s2 m2",
+                    "class": "col s2 m1",
                   },
                   "children": Array [
                     Object {
@@ -5396,7 +5396,7 @@ initialize {
                   "parent": [Circular],
                   "prev": Object {
                     "attribs": Object {
-                      "class": "col s5 m3",
+                      "class": "col s5 m3 offset-m1",
                     },
                     "children": Array [
                       Object {
@@ -5590,7 +5590,7 @@ initialize {
                     "parent": [Circular],
                     "prev": Object {
                       "attribs": Object {
-                        "class": "col s5 m3",
+                        "class": "col s5 m3 offset-m1",
                       },
                       "children": Array [
                         Object {
@@ -5784,7 +5784,7 @@ initialize {
                       "parent": [Circular],
                       "prev": Object {
                         "attribs": Object {
-                          "class": "col s12 m4",
+                          "class": "col s12 m3",
                         },
                         "children": Array [
                           Object {
@@ -7295,7 +7295,7 @@ initialize {
             "children": Array [
               Object {
                 "attribs": Object {
-                  "class": "col s12 m4",
+                  "class": "col s12 m3",
                 },
                 "children": Array [
                   Object {
@@ -8574,7 +8574,7 @@ initialize {
                 "namespace": "http://www.w3.org/1999/xhtml",
                 "next": Object {
                   "attribs": Object {
-                    "class": "col s5 m3",
+                    "class": "col s5 m3 offset-m1",
                   },
                   "children": Array [
                     Object {
@@ -8766,7 +8766,7 @@ initialize {
                   "namespace": "http://www.w3.org/1999/xhtml",
                   "next": Object {
                     "attribs": Object {
-                      "class": "col s5 m3",
+                      "class": "col s5 m3 offset-m1",
                     },
                     "children": Array [
                       Object {
@@ -8958,7 +8958,7 @@ initialize {
                     "namespace": "http://www.w3.org/1999/xhtml",
                     "next": Object {
                       "attribs": Object {
-                        "class": "col s2 m2",
+                        "class": "col s2 m1",
                       },
                       "children": Array [
                         Object {
@@ -9055,7 +9055,7 @@ initialize {
               },
               Object {
                 "attribs": Object {
-                  "class": "col s5 m3",
+                  "class": "col s5 m3 offset-m1",
                 },
                 "children": Array [
                   Object {
@@ -9247,7 +9247,7 @@ initialize {
                 "namespace": "http://www.w3.org/1999/xhtml",
                 "next": Object {
                   "attribs": Object {
-                    "class": "col s5 m3",
+                    "class": "col s5 m3 offset-m1",
                   },
                   "children": Array [
                     Object {
@@ -9439,7 +9439,7 @@ initialize {
                   "namespace": "http://www.w3.org/1999/xhtml",
                   "next": Object {
                     "attribs": Object {
-                      "class": "col s2 m2",
+                      "class": "col s2 m1",
                     },
                     "children": Array [
                       Object {
@@ -9517,7 +9517,7 @@ initialize {
                 "parent": [Circular],
                 "prev": Object {
                   "attribs": Object {
-                    "class": "col s12 m4",
+                    "class": "col s12 m3",
                   },
                   "children": Array [
                     Object {
@@ -10815,7 +10815,7 @@ initialize {
               },
               Object {
                 "attribs": Object {
-                  "class": "col s5 m3",
+                  "class": "col s5 m3 offset-m1",
                 },
                 "children": Array [
                   Object {
@@ -11007,7 +11007,7 @@ initialize {
                 "namespace": "http://www.w3.org/1999/xhtml",
                 "next": Object {
                   "attribs": Object {
-                    "class": "col s2 m2",
+                    "class": "col s2 m1",
                   },
                   "children": Array [
                     Object {
@@ -11075,7 +11075,7 @@ initialize {
                 "parent": [Circular],
                 "prev": Object {
                   "attribs": Object {
-                    "class": "col s5 m3",
+                    "class": "col s5 m3 offset-m1",
                   },
                   "children": Array [
                     Object {
@@ -11269,7 +11269,7 @@ initialize {
                   "parent": [Circular],
                   "prev": Object {
                     "attribs": Object {
-                      "class": "col s12 m4",
+                      "class": "col s12 m3",
                     },
                     "children": Array [
                       Object {
@@ -12575,7 +12575,7 @@ initialize {
               },
               Object {
                 "attribs": Object {
-                  "class": "col s2 m2",
+                  "class": "col s2 m1",
                 },
                 "children": Array [
                   Object {
@@ -12633,7 +12633,7 @@ initialize {
                 "parent": [Circular],
                 "prev": Object {
                   "attribs": Object {
-                    "class": "col s5 m3",
+                    "class": "col s5 m3 offset-m1",
                   },
                   "children": Array [
                     Object {
@@ -12827,7 +12827,7 @@ initialize {
                   "parent": [Circular],
                   "prev": Object {
                     "attribs": Object {
-                      "class": "col s5 m3",
+                      "class": "col s5 m3 offset-m1",
                     },
                     "children": Array [
                       Object {
@@ -13021,7 +13021,7 @@ initialize {
                     "parent": [Circular],
                     "prev": Object {
                       "attribs": Object {
-                        "class": "col s12 m4",
+                        "class": "col s12 m3",
                       },
                       "children": Array [
                         Object {
@@ -14529,7 +14529,7 @@ initialize {
           "children": Array [
             Object {
               "attribs": Object {
-                "class": "col s12 m4",
+                "class": "col s12 m3",
               },
               "children": Array [
                 Object {
@@ -15808,7 +15808,7 @@ initialize {
               "namespace": "http://www.w3.org/1999/xhtml",
               "next": Object {
                 "attribs": Object {
-                  "class": "col s5 m3",
+                  "class": "col s5 m3 offset-m1",
                 },
                 "children": Array [
                   Object {
@@ -16000,7 +16000,7 @@ initialize {
                 "namespace": "http://www.w3.org/1999/xhtml",
                 "next": Object {
                   "attribs": Object {
-                    "class": "col s5 m3",
+                    "class": "col s5 m3 offset-m1",
                   },
                   "children": Array [
                     Object {
@@ -16192,7 +16192,7 @@ initialize {
                   "namespace": "http://www.w3.org/1999/xhtml",
                   "next": Object {
                     "attribs": Object {
-                      "class": "col s2 m2",
+                      "class": "col s2 m1",
                     },
                     "children": Array [
                       Object {
@@ -16289,7 +16289,7 @@ initialize {
             },
             Object {
               "attribs": Object {
-                "class": "col s5 m3",
+                "class": "col s5 m3 offset-m1",
               },
               "children": Array [
                 Object {
@@ -16481,7 +16481,7 @@ initialize {
               "namespace": "http://www.w3.org/1999/xhtml",
               "next": Object {
                 "attribs": Object {
-                  "class": "col s5 m3",
+                  "class": "col s5 m3 offset-m1",
                 },
                 "children": Array [
                   Object {
@@ -16673,7 +16673,7 @@ initialize {
                 "namespace": "http://www.w3.org/1999/xhtml",
                 "next": Object {
                   "attribs": Object {
-                    "class": "col s2 m2",
+                    "class": "col s2 m1",
                   },
                   "children": Array [
                     Object {
@@ -16751,7 +16751,7 @@ initialize {
               "parent": [Circular],
               "prev": Object {
                 "attribs": Object {
-                  "class": "col s12 m4",
+                  "class": "col s12 m3",
                 },
                 "children": Array [
                   Object {
@@ -18049,7 +18049,7 @@ initialize {
             },
             Object {
               "attribs": Object {
-                "class": "col s5 m3",
+                "class": "col s5 m3 offset-m1",
               },
               "children": Array [
                 Object {
@@ -18241,7 +18241,7 @@ initialize {
               "namespace": "http://www.w3.org/1999/xhtml",
               "next": Object {
                 "attribs": Object {
-                  "class": "col s2 m2",
+                  "class": "col s2 m1",
                 },
                 "children": Array [
                   Object {
@@ -18309,7 +18309,7 @@ initialize {
               "parent": [Circular],
               "prev": Object {
                 "attribs": Object {
-                  "class": "col s5 m3",
+                  "class": "col s5 m3 offset-m1",
                 },
                 "children": Array [
                   Object {
@@ -18503,7 +18503,7 @@ initialize {
                 "parent": [Circular],
                 "prev": Object {
                   "attribs": Object {
-                    "class": "col s12 m4",
+                    "class": "col s12 m3",
                   },
                   "children": Array [
                     Object {
@@ -19809,7 +19809,7 @@ initialize {
             },
             Object {
               "attribs": Object {
-                "class": "col s2 m2",
+                "class": "col s2 m1",
               },
               "children": Array [
                 Object {
@@ -19867,7 +19867,7 @@ initialize {
               "parent": [Circular],
               "prev": Object {
                 "attribs": Object {
-                  "class": "col s5 m3",
+                  "class": "col s5 m3 offset-m1",
                 },
                 "children": Array [
                   Object {
@@ -20061,7 +20061,7 @@ initialize {
                 "parent": [Circular],
                 "prev": Object {
                   "attribs": Object {
-                    "class": "col s5 m3",
+                    "class": "col s5 m3 offset-m1",
                   },
                   "children": Array [
                     Object {
@@ -20255,7 +20255,7 @@ initialize {
                   "parent": [Circular],
                   "prev": Object {
                     "attribs": Object {
-                      "class": "col s12 m4",
+                      "class": "col s12 m3",
                     },
                     "children": Array [
                       Object {
@@ -21756,7 +21756,7 @@ initialize {
         "children": Array [
           Object {
             "attribs": Object {
-              "class": "col s12 m4",
+              "class": "col s12 m3",
             },
             "children": Array [
               Object {
@@ -23035,7 +23035,7 @@ initialize {
             "namespace": "http://www.w3.org/1999/xhtml",
             "next": Object {
               "attribs": Object {
-                "class": "col s5 m3",
+                "class": "col s5 m3 offset-m1",
               },
               "children": Array [
                 Object {
@@ -23227,7 +23227,7 @@ initialize {
               "namespace": "http://www.w3.org/1999/xhtml",
               "next": Object {
                 "attribs": Object {
-                  "class": "col s5 m3",
+                  "class": "col s5 m3 offset-m1",
                 },
                 "children": Array [
                   Object {
@@ -23419,7 +23419,7 @@ initialize {
                 "namespace": "http://www.w3.org/1999/xhtml",
                 "next": Object {
                   "attribs": Object {
-                    "class": "col s2 m2",
+                    "class": "col s2 m1",
                   },
                   "children": Array [
                     Object {
@@ -23516,7 +23516,7 @@ initialize {
           },
           Object {
             "attribs": Object {
-              "class": "col s5 m3",
+              "class": "col s5 m3 offset-m1",
             },
             "children": Array [
               Object {
@@ -23708,7 +23708,7 @@ initialize {
             "namespace": "http://www.w3.org/1999/xhtml",
             "next": Object {
               "attribs": Object {
-                "class": "col s5 m3",
+                "class": "col s5 m3 offset-m1",
               },
               "children": Array [
                 Object {
@@ -23900,7 +23900,7 @@ initialize {
               "namespace": "http://www.w3.org/1999/xhtml",
               "next": Object {
                 "attribs": Object {
-                  "class": "col s2 m2",
+                  "class": "col s2 m1",
                 },
                 "children": Array [
                   Object {
@@ -23978,7 +23978,7 @@ initialize {
             "parent": [Circular],
             "prev": Object {
               "attribs": Object {
-                "class": "col s12 m4",
+                "class": "col s12 m3",
               },
               "children": Array [
                 Object {
@@ -25276,7 +25276,7 @@ initialize {
           },
           Object {
             "attribs": Object {
-              "class": "col s5 m3",
+              "class": "col s5 m3 offset-m1",
             },
             "children": Array [
               Object {
@@ -25468,7 +25468,7 @@ initialize {
             "namespace": "http://www.w3.org/1999/xhtml",
             "next": Object {
               "attribs": Object {
-                "class": "col s2 m2",
+                "class": "col s2 m1",
               },
               "children": Array [
                 Object {
@@ -25536,7 +25536,7 @@ initialize {
             "parent": [Circular],
             "prev": Object {
               "attribs": Object {
-                "class": "col s5 m3",
+                "class": "col s5 m3 offset-m1",
               },
               "children": Array [
                 Object {
@@ -25730,7 +25730,7 @@ initialize {
               "parent": [Circular],
               "prev": Object {
                 "attribs": Object {
-                  "class": "col s12 m4",
+                  "class": "col s12 m3",
                 },
                 "children": Array [
                   Object {
@@ -27036,7 +27036,7 @@ initialize {
           },
           Object {
             "attribs": Object {
-              "class": "col s2 m2",
+              "class": "col s2 m1",
             },
             "children": Array [
               Object {
@@ -27094,7 +27094,7 @@ initialize {
             "parent": [Circular],
             "prev": Object {
               "attribs": Object {
-                "class": "col s5 m3",
+                "class": "col s5 m3 offset-m1",
               },
               "children": Array [
                 Object {
@@ -27288,7 +27288,7 @@ initialize {
               "parent": [Circular],
               "prev": Object {
                 "attribs": Object {
-                  "class": "col s5 m3",
+                  "class": "col s5 m3 offset-m1",
                 },
                 "children": Array [
                   Object {
@@ -27482,7 +27482,7 @@ initialize {
                 "parent": [Circular],
                 "prev": Object {
                   "attribs": Object {
-                    "class": "col s12 m4",
+                    "class": "col s12 m3",
                   },
                   "children": Array [
                     Object {
@@ -29108,7 +29108,7 @@ initialize {
           "children": Array [
             Object {
               "attribs": Object {
-                "class": "col s12 m4",
+                "class": "col s12 m3",
               },
               "children": Array [
                 Object {
@@ -30387,7 +30387,7 @@ initialize {
               "namespace": "http://www.w3.org/1999/xhtml",
               "next": Object {
                 "attribs": Object {
-                  "class": "col s5 m3",
+                  "class": "col s5 m3 offset-m1",
                 },
                 "children": Array [
                   Object {
@@ -30579,7 +30579,7 @@ initialize {
                 "namespace": "http://www.w3.org/1999/xhtml",
                 "next": Object {
                   "attribs": Object {
-                    "class": "col s5 m3",
+                    "class": "col s5 m3 offset-m1",
                   },
                   "children": Array [
                     Object {
@@ -30771,7 +30771,7 @@ initialize {
                   "namespace": "http://www.w3.org/1999/xhtml",
                   "next": Object {
                     "attribs": Object {
-                      "class": "col s2 m2",
+                      "class": "col s2 m1",
                     },
                     "children": Array [
                       Object {
@@ -30868,7 +30868,7 @@ initialize {
             },
             Object {
               "attribs": Object {
-                "class": "col s5 m3",
+                "class": "col s5 m3 offset-m1",
               },
               "children": Array [
                 Object {
@@ -31060,7 +31060,7 @@ initialize {
               "namespace": "http://www.w3.org/1999/xhtml",
               "next": Object {
                 "attribs": Object {
-                  "class": "col s5 m3",
+                  "class": "col s5 m3 offset-m1",
                 },
                 "children": Array [
                   Object {
@@ -31252,7 +31252,7 @@ initialize {
                 "namespace": "http://www.w3.org/1999/xhtml",
                 "next": Object {
                   "attribs": Object {
-                    "class": "col s2 m2",
+                    "class": "col s2 m1",
                   },
                   "children": Array [
                     Object {
@@ -31330,7 +31330,7 @@ initialize {
               "parent": [Circular],
               "prev": Object {
                 "attribs": Object {
-                  "class": "col s12 m4",
+                  "class": "col s12 m3",
                 },
                 "children": Array [
                   Object {
@@ -32628,7 +32628,7 @@ initialize {
             },
             Object {
               "attribs": Object {
-                "class": "col s5 m3",
+                "class": "col s5 m3 offset-m1",
               },
               "children": Array [
                 Object {
@@ -32820,7 +32820,7 @@ initialize {
               "namespace": "http://www.w3.org/1999/xhtml",
               "next": Object {
                 "attribs": Object {
-                  "class": "col s2 m2",
+                  "class": "col s2 m1",
                 },
                 "children": Array [
                   Object {
@@ -32888,7 +32888,7 @@ initialize {
               "parent": [Circular],
               "prev": Object {
                 "attribs": Object {
-                  "class": "col s5 m3",
+                  "class": "col s5 m3 offset-m1",
                 },
                 "children": Array [
                   Object {
@@ -33082,7 +33082,7 @@ initialize {
                 "parent": [Circular],
                 "prev": Object {
                   "attribs": Object {
-                    "class": "col s12 m4",
+                    "class": "col s12 m3",
                   },
                   "children": Array [
                     Object {
@@ -34388,7 +34388,7 @@ initialize {
             },
             Object {
               "attribs": Object {
-                "class": "col s2 m2",
+                "class": "col s2 m1",
               },
               "children": Array [
                 Object {
@@ -34446,7 +34446,7 @@ initialize {
               "parent": [Circular],
               "prev": Object {
                 "attribs": Object {
-                  "class": "col s5 m3",
+                  "class": "col s5 m3 offset-m1",
                 },
                 "children": Array [
                   Object {
@@ -34640,7 +34640,7 @@ initialize {
                 "parent": [Circular],
                 "prev": Object {
                   "attribs": Object {
-                    "class": "col s5 m3",
+                    "class": "col s5 m3 offset-m1",
                   },
                   "children": Array [
                     Object {
@@ -34834,7 +34834,7 @@ initialize {
                   "parent": [Circular],
                   "prev": Object {
                     "attribs": Object {
-                      "class": "col s12 m4",
+                      "class": "col s12 m3",
                     },
                     "children": Array [
                       Object {
@@ -36347,7 +36347,7 @@ initialize {
             "children": Array [
               Object {
                 "attribs": Object {
-                  "class": "col s12 m4",
+                  "class": "col s12 m3",
                 },
                 "children": Array [
                   Object {
@@ -37626,7 +37626,7 @@ initialize {
                 "namespace": "http://www.w3.org/1999/xhtml",
                 "next": Object {
                   "attribs": Object {
-                    "class": "col s5 m3",
+                    "class": "col s5 m3 offset-m1",
                   },
                   "children": Array [
                     Object {
@@ -37818,7 +37818,7 @@ initialize {
                   "namespace": "http://www.w3.org/1999/xhtml",
                   "next": Object {
                     "attribs": Object {
-                      "class": "col s5 m3",
+                      "class": "col s5 m3 offset-m1",
                     },
                     "children": Array [
                       Object {
@@ -38010,7 +38010,7 @@ initialize {
                     "namespace": "http://www.w3.org/1999/xhtml",
                     "next": Object {
                       "attribs": Object {
-                        "class": "col s2 m2",
+                        "class": "col s2 m1",
                       },
                       "children": Array [
                         Object {
@@ -38107,7 +38107,7 @@ initialize {
               },
               Object {
                 "attribs": Object {
-                  "class": "col s5 m3",
+                  "class": "col s5 m3 offset-m1",
                 },
                 "children": Array [
                   Object {
@@ -38299,7 +38299,7 @@ initialize {
                 "namespace": "http://www.w3.org/1999/xhtml",
                 "next": Object {
                   "attribs": Object {
-                    "class": "col s5 m3",
+                    "class": "col s5 m3 offset-m1",
                   },
                   "children": Array [
                     Object {
@@ -38491,7 +38491,7 @@ initialize {
                   "namespace": "http://www.w3.org/1999/xhtml",
                   "next": Object {
                     "attribs": Object {
-                      "class": "col s2 m2",
+                      "class": "col s2 m1",
                     },
                     "children": Array [
                       Object {
@@ -38569,7 +38569,7 @@ initialize {
                 "parent": [Circular],
                 "prev": Object {
                   "attribs": Object {
-                    "class": "col s12 m4",
+                    "class": "col s12 m3",
                   },
                   "children": Array [
                     Object {
@@ -39867,7 +39867,7 @@ initialize {
               },
               Object {
                 "attribs": Object {
-                  "class": "col s5 m3",
+                  "class": "col s5 m3 offset-m1",
                 },
                 "children": Array [
                   Object {
@@ -40059,7 +40059,7 @@ initialize {
                 "namespace": "http://www.w3.org/1999/xhtml",
                 "next": Object {
                   "attribs": Object {
-                    "class": "col s2 m2",
+                    "class": "col s2 m1",
                   },
                   "children": Array [
                     Object {
@@ -40127,7 +40127,7 @@ initialize {
                 "parent": [Circular],
                 "prev": Object {
                   "attribs": Object {
-                    "class": "col s5 m3",
+                    "class": "col s5 m3 offset-m1",
                   },
                   "children": Array [
                     Object {
@@ -40321,7 +40321,7 @@ initialize {
                   "parent": [Circular],
                   "prev": Object {
                     "attribs": Object {
-                      "class": "col s12 m4",
+                      "class": "col s12 m3",
                     },
                     "children": Array [
                       Object {
@@ -41627,7 +41627,7 @@ initialize {
               },
               Object {
                 "attribs": Object {
-                  "class": "col s2 m2",
+                  "class": "col s2 m1",
                 },
                 "children": Array [
                   Object {
@@ -41685,7 +41685,7 @@ initialize {
                 "parent": [Circular],
                 "prev": Object {
                   "attribs": Object {
-                    "class": "col s5 m3",
+                    "class": "col s5 m3 offset-m1",
                   },
                   "children": Array [
                     Object {
@@ -41879,7 +41879,7 @@ initialize {
                   "parent": [Circular],
                   "prev": Object {
                     "attribs": Object {
-                      "class": "col s5 m3",
+                      "class": "col s5 m3 offset-m1",
                     },
                     "children": Array [
                       Object {
@@ -42073,7 +42073,7 @@ initialize {
                     "parent": [Circular],
                     "prev": Object {
                       "attribs": Object {
-                        "class": "col s12 m4",
+                        "class": "col s12 m3",
                       },
                       "children": Array [
                         Object {

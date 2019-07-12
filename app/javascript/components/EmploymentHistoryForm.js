@@ -90,7 +90,9 @@ class EmploymentHistoryForm extends React.Component {
         entries: this.state.entries,
         initial_ids: this.state.initialIds
       })
-      window.location.reload()
+      .then( () => {
+        window.location.reload()
+      })
     } else {
       this.setState({ error: 'ERROR! Make sure start date is earlier than end date' });
     }
@@ -108,26 +110,26 @@ class EmploymentHistoryForm extends React.Component {
         <div className="red-text"><h6>{this.state.error}</h6></div>
         {this.state.entries.map((entry, idx) => (
           <Row key={entry.position + this.generateUniqueKey()}>
-            <Col m={4} s={12}>
+            <Col m={3} s={12}>
               <InputSelect
                 options={this.state.positionOptions}
                 value={entry.position}
                 onChange={position => this.handleEntryPositionChange(idx, position)}
               />
             </Col>
-            <Col m={3} s={5}>
+            <Col m={3} s={5} offset="m1">
               <InputDate 
                 date={entry.start_date}
                 onChange={date => this.handleEntryStartDateChange(idx, date)}
               />
             </Col>
-            <Col m={3} s={5}>
+            <Col m={3} s={5} offset="m1">
               <InputDate 
                 date={entry.end_date}
                 onChange={date => this.handleEntryEndDateChange(idx, date)}
               />
             </Col>
-            <Col m={2} s={2}>  
+            <Col m={1} s={2}>  
               <Button
                 node="a"
                 waves="light"

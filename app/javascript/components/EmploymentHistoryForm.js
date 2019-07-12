@@ -96,6 +96,10 @@ class EmploymentHistoryForm extends React.Component {
     }
   };
 
+  generateUniqueKey = () => {
+    return Date.now()+Math.random()
+  }
+
   render() {
     return (
       <form onSubmit={this.handleSubmit} autoComplete="off" style={{margin: "3vh"}}>
@@ -103,7 +107,7 @@ class EmploymentHistoryForm extends React.Component {
         <h6>Employment history</h6>
         <div className="red-text"><h6>{this.state.error}</h6></div>
         {this.state.entries.map((entry, idx) => (
-          <Row key={entry.position + Date.now()+Math.random()}>
+          <Row key={entry.position + this.generateUniqueKey()}>
             <Col m={4} s={12}>
               <InputSelect
                 options={this.state.positionOptions}

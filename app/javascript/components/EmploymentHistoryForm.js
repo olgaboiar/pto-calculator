@@ -146,7 +146,7 @@ class EmploymentHistoryForm extends React.Component {
           </Col>
         </Row>
         <Row className="center-align">
-          <Button waves="light" large type="submit" >Save</Button>
+          <Button waves="light" large type="submit" style={{zIndex: 0}} >Save</Button>
         </Row>
       </form>
     )

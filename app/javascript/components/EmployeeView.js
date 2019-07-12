@@ -13,17 +13,17 @@ class EmployeeView extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="container">
         <Row>
           <Col m={1} s={12} offset="m11">
             <Button waves="light" node="a" href="/users/sign_out" data-method="delete" data-testid="logout-link">Logout</Button>
           </Col>
         </Row>
         <Row>
-          <Col m={5} s={12} data-testid="pto">
+          <Col m={8} s={12} offset="m2" data-testid="pto">
             <Pto user={this.state.user} />
           </Col>
-          <Col m={7} s={12} data-testid="employment">
+          <Col m={8} s={12} offset="m2" data-testid="employment">
             <EmploymentHistoryForm user={this.state.user} />
           </Col>
         </Row>

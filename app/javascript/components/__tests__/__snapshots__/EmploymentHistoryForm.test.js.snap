@@ -7112,7 +7112,7 @@ initialize {
                       Object {
                         "attribs": Object {
                           "class": "btn waves-effect waves-light",
-                          "tyle": "[object Object]",
+                          "style": "z-index:0",
                         },
                         "children": Array [
                           Object {
@@ -7131,11 +7131,11 @@ initialize {
                         "type": "tag",
                         "x-attribsNamespace": Object {
                           "class": undefined,
-                          "tyle": undefined,
+                          "style": undefined,
                         },
                         "x-attribsPrefix": Object {
                           "class": undefined,
-                          "tyle": undefined,
+                          "style": undefined,
                         },
                       },
                     ],
@@ -14352,7 +14352,7 @@ initialize {
                     Object {
                       "attribs": Object {
                         "class": "btn waves-effect waves-light",
-                        "tyle": "[object Object]",
+                        "style": "z-index:0",
                       },
                       "children": Array [
                         Object {
@@ -14371,11 +14371,11 @@ initialize {
                       "type": "tag",
                       "x-attribsNamespace": Object {
                         "class": undefined,
-                        "tyle": undefined,
+                        "style": undefined,
                       },
                       "x-attribsPrefix": Object {
                         "class": undefined,
-                        "tyle": undefined,
+                        "style": undefined,
                       },
                     },
                   ],
@@ -21589,7 +21589,7 @@ initialize {
                   Object {
                     "attribs": Object {
                       "class": "btn waves-effect waves-light",
-                      "tyle": "[object Object]",
+                      "style": "z-index:0",
                     },
                     "children": Array [
                       Object {
@@ -21608,11 +21608,11 @@ initialize {
                     "type": "tag",
                     "x-attribsNamespace": Object {
                       "class": undefined,
-                      "tyle": undefined,
+                      "style": undefined,
                     },
                     "x-attribsPrefix": Object {
                       "class": undefined,
-                      "tyle": undefined,
+                      "style": undefined,
                     },
                   },
                 ],
@@ -28819,7 +28819,7 @@ initialize {
                 Object {
                   "attribs": Object {
                     "class": "btn waves-effect waves-light",
-                    "tyle": "[object Object]",
+                    "style": "z-index:0",
                   },
                   "children": Array [
                     Object {
@@ -28838,11 +28838,11 @@ initialize {
                   "type": "tag",
                   "x-attribsNamespace": Object {
                     "class": undefined,
-                    "tyle": undefined,
+                    "style": undefined,
                   },
                   "x-attribsPrefix": Object {
                     "class": undefined,
-                    "tyle": undefined,
+                    "style": undefined,
                   },
                 },
               ],
@@ -29021,7 +29021,7 @@ initialize {
               Object {
                 "attribs": Object {
                   "class": "btn waves-effect waves-light",
-                  "tyle": "[object Object]",
+                  "style": "z-index:0",
                 },
                 "children": Array [
                   Object {
@@ -29040,11 +29040,11 @@ initialize {
                 "type": "tag",
                 "x-attribsNamespace": Object {
                   "class": undefined,
-                  "tyle": undefined,
+                  "style": undefined,
                 },
                 "x-attribsPrefix": Object {
                   "class": undefined,
-                  "tyle": undefined,
+                  "style": undefined,
                 },
               },
             ],
@@ -36313,7 +36313,7 @@ initialize {
                 Object {
                   "attribs": Object {
                     "class": "btn waves-effect waves-light",
-                    "tyle": "[object Object]",
+                    "style": "z-index:0",
                   },
                   "children": Array [
                     Object {
@@ -36332,11 +36332,11 @@ initialize {
                   "type": "tag",
                   "x-attribsNamespace": Object {
                     "class": undefined,
-                    "tyle": undefined,
+                    "style": undefined,
                   },
                   "x-attribsPrefix": Object {
                     "class": undefined,
-                    "tyle": undefined,
+                    "style": undefined,
                   },
                 },
               ],

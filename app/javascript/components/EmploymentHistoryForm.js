@@ -144,7 +144,7 @@ class EmploymentHistoryForm extends React.Component {
             <Button
               node="a"
               waves="light"
-              tyle={{zIndex: 0}}
+              style={{zIndex: 0}}
               onClick={this.handleAddEntry} >Add another entry</Button>
           </Col>
         </Row>

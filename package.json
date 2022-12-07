@@ -40,7 +40,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.14.2",
     "jest": "^24.8.0",
-    "lint": "^0.7.0",
+    "lint": "^0.8.8",
     "react-test-renderer": "^16.8.6",
     "webpack-dev-server": "^3.7.2"
   }
